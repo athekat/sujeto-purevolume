@@ -1,0 +1,858 @@
+
+/*****************************************************************************
+New Header
+*****************************************************************************/
+
+#header_strip {
+	padding-bottom: 8px;
+}
+
+#header_strip .leaderboard_wrapper {
+	/* width: 950px; */
+	padding: 0;
+	margin: 0 auto;
+	text-align: center;
+}
+
+#header_strip .leaderboard_wrapper .leaderboard_ad_container {
+	/* width: 728px; */
+	margin: 0 auto;
+}
+
+#header_nav {
+	width: 950px;
+	margin: 0 auto;
+	height: 45px;
+	padding-top: 15px;
+	position: relative;
+	padding-bottom: 8px;
+}
+
+#header_nav_inner {
+	width: 950px;
+	height: 45px;
+	background: #1a1a1a;
+	border-radius: 5px;
+}
+
+#header_nav h1#purevolume_logo {
+	width: 157px;
+	height: 45px;
+	display: block;
+	position: relative;
+	z-index: 9999;
+	background: url('assets/img/logo2.jpg');
+
+}
+
+#header_nav h1#purevolume_logo a {
+	width: 157px;
+	height: 45px;
+	display: block;
+	position: relative;
+}
+
+#header_nav h1#purevolume_logo a:hover {
+	background-position: 0 -45px;
+}
+
+#header_nav_list {
+	float: left;
+	padding: 0;
+	margin-left: 10px;
+	width: 420px;
+	position: relative;
+	z-index: 12;
+}
+
+#header_nav_list li {
+	float: left;
+	margin: 0 10px 0 10px;
+	display: inline;
+	height: 45px;
+	padding-top: 0;
+	position: relative;
+	z-index: 99999;
+}
+
+#header_nav_list li a {
+	color: #888;
+	font-family: 'Lucida Grande', Sans-serif;
+	font-size: 13px;
+	height: 30px;
+	padding-top: 15px;
+	margin: 0;
+	display: block;
+	float: left;
+	position: relative;
+	z-index: 5000;
+}
+
+#header_nav_list li a.selected {
+	color: #fff;
+}
+
+#header_nav_list li a:hover {
+	color: #fff;
+}
+
+.header_nav_right {
+	float: left;
+	width: 342px;
+	padding: 10px 21px 0 0;
+	position: relative;
+	z-index: 12;
+}
+
+
+
+/*****************************************************************************
+New Header: Login / Signup
+*****************************************************************************/
+
+#header_nav .action_nav div.button_expand {
+	margin: 0 0 0 10px;
+}
+
+#header_login_signup {
+	float: right;
+	position: relative; /* For Login Dropdown */
+}
+
+#header_nav_login_dropdown {
+	display: none;
+	position: absolute;
+	top: 22px;
+	left: 70px;
+	width: 110px;
+	background: #565656;
+	padding: 15px;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	border-radius: 3px;
+	-moz-border-radius-topleft: 3px;
+	-webkit-border-top-left-radius: 3px;
+	border-top-left-radius: 3px;
+}
+
+#header_nav_login_dropdown li {
+	float: none;
+	display: block;
+	height: auto;
+	margin: 0 0 6px 0;
+}
+
+#header_nav_login_dropdown li a {
+	display: block;
+	padding: 3px 6px;
+	color: #fff;
+	-moz-border-radius: 2px;
+	-webkit-border-radius: 2px;
+	border-radius: 2px;
+}
+
+#header_nav_login_dropdown li a:hover {
+	background: #008EE8;
+	text-decoration: none;
+}
+
+#header_nav_signup a, #header_nav_login a {
+	background: #666 url(/web/20180701231355im_/http://g.purevolumecdn.com/_images_new/button_expand_nav.png) no-repeat;
+	color: #fff;
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	border-radius: 4px;
+}
+
+#header_nav_signup a span, #header_nav_login a span {
+	background: #666 url(/web/20180701231355im_/http://g.purevolumecdn.com/_images_new/button_expand_nav_right.png) no-repeat;
+	-moz-border-radius-bottomright: 5px;
+	-webkit-border-bottom-right-radius: 5px;
+	border-bottom-right-radius: 5px;
+}
+
+#header_nav_signup a:hover, #header_nav_login a:hover, #header_nav_signup a:hover span, #header_nav_login a:hover span {
+	background-color: #008ee8;
+}
+
+
+/*****************************************************************************
+New Header: Search
+*****************************************************************************/
+
+#header_nav_search_container {
+	float: right;
+	display: inline;
+	background: #fff url(/web/20180701231355im_/http://g.purevolumecdn.com/_images_new/header_nav_search_bg.gif) no-repeat;
+	width: 190px;
+	height: 25px;
+	margin-right: 10px;
+	position: relative;
+	z-index: 99999;
+}
+
+#header_nav_search_input {
+	border: none;
+	margin: 0;
+	padding: 7px 0 7px 10px;
+	height: 11px;
+	width: 150px;
+	display: inline;
+	font-size: 10px;
+	color: #888;
+	background: none;
+	float: left;
+	outline: none;
+	position: relative;
+	z-index: 5000;
+}
+
+#header_nav_search_submit {
+	border: none;
+	background: #eee url(/web/20180701231355im_/http://g.purevolumecdn.com/_images_new/header_nav_search_submit_bg.gif) no-repeat;
+	width: 30px;
+	height: 25px;
+	display: inline;
+	padding: 0;
+	margin: 0;
+	float: left;
+	cursor: pointer;
+	position: relative;
+	z-index: 5000;
+}
+
+#header_nav_search_submit:hover {
+	background-position: 0 -25px;
+}
+
+
+/*****************************************************************************
+New Header: Logged In
+*****************************************************************************/
+
+#header_loggedin_container {
+	float: right;
+	height: 25px;
+	width: 50px;
+	margin-left: 10px;
+	position: relative;
+	z-index: 99999;
+}
+
+.header_loggedin {
+	display: block;
+	height: 25px;
+	width: 25px;
+	float: left;
+	background: #ccc url(/web/20180701231355im_/http://g.purevolumecdn.com/_images_new/header_profile_link.gif) no-repeat;
+}
+
+#header_profile_link {
+	position: relative;
+}
+
+.header_profile_link_overlay {
+	background: url(/web/20180701231355im_/http://g.purevolumecdn.com/_images_new/header_profile_link_overlay.png) no-repeat;
+	display: block;
+	height: 25px;
+	width: 25px;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+
+/*****************************************************************************
+New Header: Dashboard Link and Dropdown
+*****************************************************************************/
+
+
+#dashboard_link_dropdown_container {
+	width: 100%;
+    position: absolute;
+	top: 50px;
+	right: 0;
+	z-index: 500000;
+}
+
+#dashboard_link_dropdown {
+	width: 950px;
+	margin: auto;
+}
+
+#dashboard_link_dropdown_list {
+	float: right;
+	background: #1a1a1a;
+	padding: 15px 10px 10px 10px;
+	/* margin-right: 20px; */
+	display: inline;
+	border: 1px solid #141414;
+	border-top: none;
+	-moz-border-radius-bottomleft: 4px;
+	-moz-border-radius-bottomright: 4px;
+	-webkit-border-bottom-left-radius: 4px;
+	-webkit-border-bottom-right-radius: 4px;
+	position: relative;
+}
+
+
+#dashboard_link_dropdown_iframe {
+	width: 950px;
+	height: 150px;
+	position: absolute;
+	border: none;
+	z-index: -1;
+	top: 0;
+	margin: auto;
+	filter:mask();
+}
+
+#header_dashboard_link {
+	background: #ccc url(/web/20180701231355im_/http://g.purevolumecdn.com/_images_new/header_dashboard_link.gif) no-repeat;
+}
+
+#header_dashboard_link:hover {
+	background-position: 0 -25px;
+}
+
+.dashboard_link_dropdown_item {
+	margin-bottom: 2px;
+}
+
+.dashboard_link_dropdown_item a {
+	display: block;
+	padding: 3px 10px;
+	text-align: right;
+	color: #eee;
+	z-index: 5000;
+	position: relative;
+}
+
+.dashboard_link_dropdown_item a span {
+	color: #999;
+	letter-spacing: 0;
+}
+
+.dashboard_link_dropdown_item a:hover {
+	background: #222;
+	-moz-border-radius: 2px;
+	-webkit-border-radius: 2px;
+	border-radius: 2px;
+	text-decoration: none;
+	color: #fff;
+}
+
+
+/*****************************************************************************
+Action Nav / Button Expand
+*****************************************************************************/
+
+
+
+.action_nav {
+	height: 25px;
+}
+
+ul.action_nav {
+	padding-top: 0;
+}
+
+.action_nav li, .action_nav div.button_expand {
+	float: left;
+	height: 25px;
+	display: inline;
+	margin: 0 8px 0 0;
+}
+
+.action_nav.align_right li {
+	float: right;
+	margin: 0 0 0 8px;
+}
+
+.button_expand a {
+	padding: 6px 8px 0 8px;
+	height: 19px;
+	float: left;
+	display: block;
+	background: #ddd url(/web/20180701231355im_/http://g.purevolumecdn.com/_images_new/button_expand.png) no-repeat;
+	position: relative;
+	font-size: 10px;
+	color: #555;
+	font-family: "Lucida Grande", Arial, Sans-serif;
+	/* font-weight: bold; */
+	line-height: auto;
+	z-index: 10;
+}
+
+.button_expand a span {
+	display: block;
+	width: 5px;
+	height: 25px;
+	background: #ddd url(/web/20180701231355im_/http://g.purevolumecdn.com/_images_new/button_expand_right.png) no-repeat;
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 6px !important;
+	right: -1px !important;
+}
+
+.action_nav.small {
+	height: 18px;
+}
+
+.action_nav.small li {
+	height: 18px;
+}
+
+.small_button a {
+	padding: 3px 8px 0 8px;
+	height: 15px;
+	float: left;
+	background: #ddd url(/web/20180701231355im_/http://g.purevolumecdn.com/_images_new/button_expand_small.png) no-repeat;
+	font-size: 9px;
+	font-weight: normal;
+}
+
+.small_button a span {
+	width: 5px;
+	height: 18px;
+	background: #ddd url(/web/20180701231355im_/http://g.purevolumecdn.com/_images_new/button_expand_small_right.png) no-repeat;
+}
+
+.button_expand a:hover, .button_expand a:hover span {
+	background-color: #ccc;
+	text-decoration: none;
+	color: #333;
+} 
+
+.button_expand.colored a, .button_expand.colored a span {
+	background-color: #008ee8;
+	color: #fff;
+}
+
+.button_expand.colored a:hover, .button_expand.colored a:hover span {
+	background-color: #007dcf;
+	text-decoration: none;
+	color: #fff;
+}
+
+.button_expand.colored a.selected, .button_expand.colored a.selected span {
+	background-color: #333;
+	color: #fff;
+}
+
+.button_expand.colored a.selected:hover, .button_expand.colored a.selected:hover span {
+	background-color: #111;
+	color: #fff;
+}
+
+
+
+
+
+/*****************************************************************************
+Footer
+*****************************************************************************/
+
+div.footer_list h4 {
+	margin: 0 0 7px 0px;
+	display: block;
+	font-family: "Lucida Grande",Tahoma,Verdana,Arial,sans-serif;
+	font-size: 12px;
+	color: #666;
+}
+
+div.footer_list {
+	float: left;
+	width: 205px;
+	margin: 20px 0 0 20px;
+	display: inline;
+}
+
+div.footer_list ul {
+	margin-bottom: 10px;
+}
+
+div.footer_list ul li {
+	margin: 5px 0 0px 0px;
+	clear: left;
+	padding-bottom: 1px;
+}
+
+div.footer_list ul li a {
+	color: #aaa;
+	border: none;
+	text-decoration: none;
+}
+
+div.footer_list ul li a:hover {
+	text-decoration: underline;
+	color: #008ee8;
+}
+
+div#footer_container {
+	width: 950px;
+	margin: 0 auto;
+	padding-bottom: 150px;
+}
+
+div#footer_links_container {
+	width: 950px;
+	background: #1a1a1a;
+	padding-bottom: 20px;
+}
+
+div#footer {
+	background: #000;
+	display: block;
+	height: 29px;
+	padding: 12px 20px 0 20px;
+	font-size: 11px;
+	color: #666;
+	clear: left;
+	border-radius: 0px 0px 10px 10px;
+}
+
+a#footer_logo {
+	background: transparent url(/web/20180701231355im_/http://g.purevolumecdn.com/_images/footer_logo.gif) no-repeat;
+	position: relative;
+	z-index: 5;
+	display: block;
+	height: 38px;
+	margin: 0 0 0 14px;
+}
+
+a:hover#footer_logo {
+	background-position: 0 -38px;
+}
+
+#footer_treats .leaderboard_ad_container {
+	height: 90px;
+	float: left;
+}
+
+/*****************************************************************************
+Footer: Profile Jump
+*****************************************************************************/
+
+div#profile_jump {
+	background: #fff url(/web/20180701231355im_/http://g.purevolumecdn.com/_images/page_gradient.gif) repeat-x;
+    height: 48px;
+	margin: 0 1px 0 1px;
+}
+
+div#profile_jump_container {
+    background: url(/web/20180701231355im_/http://g.purevolumecdn.com/_images/_profile_frontend/profile_jump.gif) no-repeat 0px 21px;
+	height: 48px;
+	width: 360px;
+	margin: 0 auto;
+	padding-left: 120px;
+}
+
+div#profile_jump_container select {
+	width: 300px;
+	float: left;
+	margin: 14px 0 0 0px;
+}
+
+div#profile_jump_container input {
+	float: left;
+	margin: 8px 0 0 8px;
+}
+
+/*****************************************************************************
+Footer: Band Promo
+*****************************************************************************/
+
+#footer_band_promo {
+	float: left;
+	margin-right: 20px;
+	width: 160px;
+	height: 90px;
+	display: block;
+	zoom: 1;
+	position: relative;
+}
+
+#footer_band_promo_link {
+	display: block;
+	width: 160px;
+	height: 90px;
+	color: #fff;
+}
+
+#footer_band_promo_link img {
+	display: block;
+}
+
+#footer_band_promo_name {
+	padding: 6px 10px 0 10px;
+	width: 140px;
+	height: 17px;
+	display: block;
+	color: #fff;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	background: url(/web/20180701231355im_/http://g.purevolumecdn.com/_images/trans.png);
+	font-size: 10px;
+	zoom: 1;
+}
+
+#footer_band_promo_tag {
+	position: absolute;
+	width: 160px;
+	height: 15px;
+	display: block;
+	top: 0;
+	left: 0;
+	background: url(/web/20180701231355im_/http://g.purevolumecdn.com/_images/footer_band_promo_tag.png) no-repeat;
+}
+
+#footer_band_promo a:hover, a:hover #footer_band_promo_name {
+	text-decoration: underline;
+}
+
+#footer_band_promo_name_inner {
+	width: 140px;
+	overflow: hidden;
+}
+
+#footer_band_promo_name_inner p {
+	width: 140px;
+	line-height: 100%;
+	zoom: 1;
+	height: 17px;
+	margin-bottom: 0;
+	padding-bottom: 0;
+}
+
+
+/*****************************************************************************
+Footer: Debug Footer & Host Name
+*****************************************************************************/
+
+div#host_name {
+	width: 910px;
+	padding: 20px;
+	background: #333;
+	font-size: 18px;
+	-moz-border-radius-topleft: 4px;
+	-moz-border-radius-topright: 4px;
+	-webkit-border-top-left-radius: 4px;
+	-webkit-border-top-right-radius: 4px;
+	margin: 0 auto;
+	color: #fff;
+}
+
+div#debug_footer {
+    display: block;
+    width: 910px;
+    margin: 0 auto 50px auto;
+    background: #ddd;
+    padding: 20px;
+	-moz-border-radius-bottomleft: 4px;
+	-moz-border-radius-bottomright: 4px;
+	-webkit-border-bottom-left-radius: 4px;
+	-webkit-border-bottom-right-radius: 4px;
+	overflow: scroll;
+}
+
+/*****************************************************************************
+Remove After Global New goes in
+*****************************************************************************/
+
+#page_container, .page_container {
+	font-family: "Lucida Grande", Arial, Sans-serif;
+	background: #fff url(/web/20180701231355im_/http://g.purevolumecdn.com/_images_new/page_bg.gif) repeat-y;
+	zoom:1;
+}
+
+.page_gradient {
+	background: #fff url(/web/20180701231355im_/http://g.purevolumecdn.com/_images/page_gradient.gif) repeat-x;
+}
+
+.page_sub_body {
+	padding: 20px;
+	margin: 0 1px 0 1px;
+	border-bottom: 1px solid #d7d7d7;
+	zoom: 1;
+}
+
+/*****************************************************************************
+Profiles: Persistent Box
+*****************************************************************************/
+
+
+body #persistent_container {
+	width: 100%;
+	height: 99px;
+	position: absolute;
+	bottom: 0;
+	top: 0;
+	z-index: 99000;
+}
+
+#persistent_inner_container {
+	width: 950px;
+	height: 35px;
+	margin: 0 auto;
+	z-index: 100000;
+}
+
+#persistent {
+	width: 137px;
+	padding-left: 20px;
+	height: 35px;
+	background: #1a1a1a;
+}
+
+#persistent_twitter {
+	width: 157px;
+	height: 35px;
+}
+
+#persistent_twitter a {
+	display: block;
+	height: 35px;
+	width: 157px;
+	background: url(/web/20180701231355im_/http://g.purevolumecdn.com/_images_new/follow_on_twitter.png) no-repeat;
+}
+
+
+#persistent_container div.player_controls  {
+	background: none;
+    padding: 10px 0 0 0;
+    height: 23px;
+    margin-bottom: 0;
+    position: static;
+}
+
+#persistent div.player_controls ul {
+    margin-left: 0;
+	padding: 0;
+    list-style-type: none;
+}
+
+#persistent div.player_controls ul li {
+    float: left;
+    width: 14px;
+    margin: 0 13px 0 0px;
+}
+
+#persistent ul li p#time_elapsed {
+    margin: 0;
+	padding: 0;
+	position: static;
+    color: #fff;
+    font-size: 11px;
+}
+
+a#play_button {
+    background-position: -17px 0px;
+    width: 8px;
+    margin-left: 3px;
+}
+
+a#play_button.paused {
+    background-position: -28px 0px;
+    width: 12px;
+    margin-left: 0px;
+}
+ 
+a#next_button {
+    background-position: -43px 0px;
+}
+
+#persistent_twitter a:hover {
+	background: url(/web/20180701231355im_/http://g.purevolumecdn.com/_images_new/follow_on_twitter_hover.png) no-repeat;
+}
+
+* html #persistent_twitter a {
+    background-image: none;
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/_images_new/follow_on_twitter.png', sizingMethod='scale');
+}
+
+* html #persistent_twitter a:hover {
+    background-image: none;
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/_images_new/follow_on_twitter_hover.png', sizingMethod='scale');
+}
+
+
+.border_light .block_ad_container {
+	margin-bottom: 0;
+}
+
+/*****************************************************************************
+IE PNG FIX
+*****************************************************************************/
+
+* html #header_nav_inner {
+    background-image: none;
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/_images_new/header_nav_bg.png', sizingMethod='scale');
+}
+
+* html #header_nav_signup a {
+    background-image: none;
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/_images_new/button_expand_nav.png', sizingMethod='crop');
+}
+
+* html #header_nav_login a {
+    background-image: none;
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/_images_new/button_expand_nav.png', sizingMethod='crop');
+}
+
+* html #header_nav_signup a span {
+    background-image: none;
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/_images_new/button_expand_nav_right.png', sizingMethod='crop');
+}
+
+* html #header_nav_login a span {
+    background-image: none;
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/_images_new/button_expand_nav_right.png', sizingMethod='crop');
+}
+
+* html .header_profile_link_overlay {
+    background-image: none;
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/_images_new/header_profile_link_overlay.png', sizingMethod='scale');
+}
+
+* html div#footer {
+	background-image: none;
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/_images/footer.png', sizingMethod='image');
+}
+
+* html span#footer_band_promo_name {
+    background-image: none;
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/_images/trans.png', sizingMethod='scale');
+}
+
+* html span#footer_band_promo_tag {
+    background-image: none;
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/_images/footer_band_promo_tag.png', sizingMethod='scale');
+}
+
+
+
+* html .button_expand a {
+    background-image: none;
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/_images_new/button_expand.png', sizingMethod='crop');
+}
+
+* html .button_expand a span {
+    background-image: none;
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/_images_new/button_expand_right.png', sizingMethod='crop');
+}
+
+* html .button_expand.small_button a {
+    background-image: none;
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/_images_new/button_expand_small.png', sizingMethod='crop');
+}
+
+* html .button_expand.small_button a span {
+    background-image: none;
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/_images_new/button_expand_small_right.png', sizingMethod='crop');
+}
+
+
+

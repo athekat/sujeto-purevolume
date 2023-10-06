@@ -1,0 +1,550 @@
+
+/***'Light' COLORS************************************************
+******************************************************************/
+
+/***alternating row colors, and comment post background***/
+div.comment_row_alt,
+div.thumb_row_alt,
+.row_alt,
+table tr.row_alt td,
+div#comment_post {
+    background-color: #f7f7f7;
+}
+
+/***one pixel bottom borders***/
+div#module_shows table tr.table_head td,
+div.blog_date,
+div#comment_post,
+table#stats tr td.stats_label,
+table#stats tr td.stats_number,
+div.new_window_toggle {
+    border-bottom: 1px solid #ddd;
+}
+
+/***font color #1***/
+div#module_shows table tr.table_head td,
+div.blog_date,
+div#comment_post,
+table#stats,
+div.thumb_details em,
+div.thumb_details_dark em,
+div#module_info span {
+    color: #aaa;
+}
+
+/***font color #2***/
+div#comment_post input#submit_comment,
+div#profile_body,
+div.comment_details h4,
+div.comment_details h4 a,
+table#stats tr td.stats_number,
+div.thumb_details_dark h4 a,
+ul#connect_nav li a:hover,
+ul#connect_nav li#in_your_favorites a,
+ul#connect_nav li#is_friend a {
+    color: #444;
+}
+
+/***font color #3***/
+div.comment_details p,
+div.module_totals,
+p.view_all a {
+    color: #777;
+}
+
+/***font color #4***/
+div.comment_details p.post_date {
+    color: #ccc;
+}
+
+/***font color #5***/
+ul#connect_nav li a {
+    color: #999;
+}
+
+/***profile photo border***/
+div#profile_photo img {
+    background: #fff;
+    border: 1px solid #ccc;
+}
+
+/***Tab Fonts***/
+
+ul.module_nav li a {
+    color: #e5e5e5;
+}
+
+ul.module_nav li a.selected, ul.module_nav li a:hover {
+    color: #232323;
+}
+
+/***'Light' BACKGROUND IMAGES and corresponding colors************
+******************************************************************/
+
+div#profile_header {
+    background: url(/web/20180703193343im_/http://g.purevolumecdn.com/_images/_profile_frontend/_light/header_bg.png) no-repeat;
+}
+
+* html div#profile_header {
+    background-image: none;
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/_images/_profile_frontend/_light/header_bg.png', sizingMethod='image');	      
+}
+
+/***profile badges***/
+ul#profile_badge li {
+    background: url(/web/20180703193343im_/http://g.purevolumecdn.com/_images/_profile_frontend/_light/badges.gif) no-repeat;
+}
+
+/***connect nav***/
+ul#connect_nav li a {
+    background: url(/web/20180703193343im_/http://g.purevolumecdn.com/_images/_profile_frontend/_light/connect_nav.gif) no-repeat;
+}
+
+div#profile_photo {
+    width: 345px;
+    float: left;
+    padding: 15px;
+    margin-right: 15px;
+	-moz-border-radius-bottomright: 4px;
+	-moz-border-radius-bottomleft: 4px;
+	-webkit-border-bottom-right-radius: 4px;
+	-webkit-border-bottom-left-radius: 4px;
+	zoom:1;
+}
+
+/***profile photo***/
+div#profile_photo {
+    background: url(/web/20180703193343im_/http://g.purevolumecdn.com/_images/_profile_frontend/_light/profile_photo_bg.png) no-repeat;
+}
+
+* html div#profile_photo {
+    background-image: none;
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/_images/_profile_frontend/_light/profile_photo_bg.png', sizingMethod='crop');	      
+}
+
+
+/***tabs***/
+ul.module_nav li {
+    position: relative;
+    background-color: #f7f7f7;
+}
+
+div#left_side ul.module_nav {
+    background: #ccc bottom no-repeat;
+}
+
+* html div#left_side ul.module_nav {
+    background-image: none;
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/_images/_profile_frontend/_light/nav_bottom_left.png', align='bottom right' sizingMethod='image');
+}
+
+div#right_side ul.module_nav {
+    background: url(/web/20180703193343im_/http://g.purevolumecdn.com/_images/_profile_frontend/_light/nav_bottom_right.png) bottom no-repeat;
+}
+
+* html div#right_side ul.module_nav {
+    background-image: none;
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/_images/_profile_frontend/_light/nav_bottom_right.png', align='bottom' sizingMethod='image');	      
+}
+
+ul.module_nav li a {
+    background: url(/web/20180703193343im_/http://g.purevolumecdn.com/_images/_profile_frontend/_light/tab_bg_unselected.png) no-repeat;
+}
+
+* html ul.module_nav li a {
+    background-image: none;
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/_images/_profile_frontend/_light/tab_bg_unselected.png', sizingMethod='image');	      
+}
+
+ul.module_nav li a.selected, ul.module_nav li a:hover {
+    background: url(/web/20180703193343im_/http://g.purevolumecdn.com/_images/_profile_frontend/_light/tab_bg_selected.png) no-repeat;
+}
+
+* html ul.module_nav li a.selected, *html ul.module_nav li a:hover {
+    background-image: none;
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/_images/_profile_frontend/_light/tab_bg_selected.png', sizingMethod='image');	      
+}
+
+
+/***modules***/
+
+div.module_contain_left {
+    background: #fff url(/web/20180703193343im_/http://g.purevolumecdn.com/_images/_profile_frontend/_light/left_side_bg.gif) no-repeat;
+}
+
+div.module_contain_right {
+    background: #fff url(/web/20180703193343im_/http://g.purevolumecdn.com/_images/_profile_frontend/_light/right_side_bg.gif) no-repeat;
+}
+
+div.module_bottom_left {
+    background: url(/web/20180703193343im_/http://g.purevolumecdn.com/_images/_profile_frontend/_light/module_bottom_left.png) no-repeat;
+}
+
+* html div.module_bottom_left {
+    background-image: none;
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/_images/_profile_frontend/_light/module_bottom_left.png', sizingMethod='image');	      
+}
+
+div.module_bottom_right {
+    background: url(/web/20180703193343im_/http://g.purevolumecdn.com/_images/_profile_frontend/_light/module_bottom_right.png) no-repeat;
+}
+
+* html div.module_bottom_right {
+    background-image: none;
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/_images/_profile_frontend/_light/module_bottom_right.png', sizingMethod='image');	      
+}
+
+/***GENERIC*******************************************************
+******************************************************************/
+
+p.empty {
+    padding-bottom: 150px;
+}
+
+
+/***HEADER********************************************************
+******************************************************************/
+
+div#profile_header {
+    /* height: 75px; */
+    padding: 20px;
+	width: 910px;
+	position: relative;
+}
+
+
+/***MAIN STRUCTURE************************************************
+******************************************************************/
+
+div#profile_body {
+    padding: 15px;
+}
+
+div#row_1 {
+    margin-bottom: 15px;
+    background: url(/web/20180703193343im_/http://g.purevolumecdn.com/_images/_profile_frontend/row_1_bg.gif) bottom no-repeat;
+	zoom: 1;
+}
+
+/***second row***
+*****************/
+
+div#row_2 {
+    margin-bottom: 55px;
+}
+
+div#left_side {
+    width: 100%;
+}
+
+div#right_side {
+    width: 300px;
+    float: left;
+}
+
+/***PROFILE PHOTO*************************************************
+******************************************************************/
+
+div#profile_photo_wrapper {
+	width: 345px;
+	height: 235px;
+	margin-bottom: 10px;
+}
+
+div#profile_photo img {
+    padding: 0;
+	border: none;
+	display: block;
+}
+
+div#player_container {
+	width: 530px;
+	float: left;
+}
+
+div#player {
+    width: 530px;
+    height: 290px;
+}
+
+div#player_popular_song {
+	margin: 5px 1px 0 12px;
+	padding: 10px;
+	background: #fff;
+	color: #222;
+	font-size: 11px;
+}
+
+/***MODULE TABS***************************************************
+******************************************************************/
+
+ul.module_nav {
+    height: 25px;
+    padding-bottom: 10px;
+}
+
+ul.module_nav li {
+    display: block;
+    width: 90px;
+    height: 25px;
+    float: left;
+    margin: 0 1px 0 0;
+}
+
+ul.module_nav li a {
+    display: block;
+    height: 18px;
+    padding-top: 7px;
+    font-size: 10px;
+    font-family: Arial, "helvetica neue", sans-serif;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+ul.module_nav li a:hover {
+    text-decoration: none;
+}
+
+/***MODULE CLASSES************************************************
+******************************************************************/
+
+div.module_contain_left, div.module_contain_right {
+    padding: 10px 20px 10px 20px;
+} 
+
+div.module_contain_left {
+    padding-bottom: 20px;
+    border-radius: 10px 10px 0px 0px;
+}
+
+div.module_bottom_left, div.module_bottom_right {
+    height: 10px;
+    margin-bottom: 15px;
+}
+
+div.module_totals {
+    font-size: 10px;
+}
+
+p.total_left, p.total_right {
+    width: 50%;
+    float: left;
+}
+
+p.total_right {
+    text-align: right;
+}
+
+p.view_all {
+    clear: both;
+    text-align: right;
+    padding-top: 5px;
+    margin-bottom: 0;
+}
+
+p.view_all a {
+    text-decoration: underline;
+}
+
+/***BILLBOARD*****************************************************
+******************************************************************/
+
+div#module_billboard, div#module_billboard p {
+    line-height: 150%;
+}
+
+div#module_billboard {
+    padding-bottom: 20px;
+}
+
+div#module_info p {
+    line-height: 125%;
+}
+
+/***PHOTOS and FAN PHOTOS*****************************************
+******************************************************************/
+
+div.new_window_toggle {
+    padding: 10px 0 15px 0;
+}
+
+div#module_photos table, div#module_fan_photos table {
+    margin: 15px 10px 10px 10px;
+    border-collapse: collapse;
+}
+
+div#module_photos table tr td, div#module_fan_photos table tr td {
+    width: 190px;
+    vertical-align: top;
+    padding: 0 0 20px 0;
+}
+
+div#module_photos table tr td img, div#module_fan_photos table tr td img {
+    margin-bottom: 10px;
+}
+
+div#module_photos table tr td.right, div#module_fan_photos table tr td.right {
+    width: 165px;
+}
+
+/***BLOG**********************************************************
+******************************************************************/
+
+div.blog_date {
+    font-size: 10px;
+    padding-bottom: 5px;
+}
+
+div#module_blog div.post_contain h3 {
+    padding-top: 10px;
+    margin-top: 0;
+}
+
+div#module_blog div.post_contain p {
+    line-height: 150%;
+}
+
+div#module_blog div.post_contain {
+    padding: 15px 0 10px 0;
+}
+
+/***SHOWS*********************************************************
+******************************************************************/
+
+div#module_shows table {
+    width: 100%;
+}
+
+div#module_shows table tr.table_head td {
+    font-size: 11px;
+    font-weight: normal;
+}
+
+div#module_shows table tr td {
+    padding: 5px 10px 5px 10px;
+    font-size: 11px;
+}
+
+div#module_shows table tr td a {
+    font-weight: bold;
+}
+
+
+/***STATS*********************************************************
+******************************************************************/
+
+table#stats {
+    width: 100%;
+    font-size: 10px;
+    margin-bottom: 20px;
+}
+
+table#stats tr td.stats_label {
+    padding: 5px 0 5px 0;
+}
+
+table#stats tr td.stats_number {
+    padding: 5px 0 5px 0;
+    text-align: right;
+}
+
+
+/***FANS and FRIENDS**********************************************
+******************************************************************/
+
+div.thumb_row, div.thumb_row_alt {
+    padding: 8px 5px 8px 8px;
+    float: left;
+}
+
+div.thumb_row a img, div.thumb_row_alt a img {
+    width: 50px;
+    float: left;
+}
+
+div.thumb_details, div.thumb_details_dark {
+    width: 187px;
+    margin-left: 10px;
+    float: left;
+    padding-top: 12px;
+}
+
+div.thumb_details h4, div.thumb_details_dark h4 {
+    font-size: 11px;
+    margin: 0 0 5px 0;
+    padding: 0;
+}
+
+div.thumb_details em, div.thumb_details_dark em {
+    font-size: 10px;
+    font-style: normal;
+}
+
+/***LINKS*********************************************************
+******************************************************************/
+
+div#links a {
+    background: url(/web/20180703193343im_/http://g.purevolumecdn.com/_images/_profile_frontend/link_icon.png) left center no-repeat;
+    display: block;
+    height: 16px;
+    padding: 0px 0px 0px 20px;
+    line-height: 150%;
+    margin: 8px 0px 15px 0px;
+}
+
+* html div#links a {
+    background-image: none;
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/_images/_profile_frontend/link_icon.png', sizingMethod='crop');
+}
+
+/*VIDEOS*/
+
+div#module_videos ul li {
+    padding: 8px;
+}
+
+div#module_videos ul li.row_alt {
+    background-color: #f7f7f7;
+}
+
+div#module_videos ul li div.details {
+    float: left;
+    width: 350px;
+    margin: 35px 0 0 20px;
+}
+
+div#module_videos ul li div.details strong a {
+    color: #444;
+}
+
+div#module_videos ul li div.details p {
+    margin-top: 3px;
+}
+
+div.video_thumb {
+	float: left;
+	width: 130px;
+	height: 97px;
+	position: relative;
+}
+
+div.video_thumb img {
+  	width: 130px;
+	height: 97px;  
+}
+
+div.video_thumb a.video_play_button {
+    background: url(/web/20180703193343im_/http://g.purevolumecdn.com/_images/_subpages/_video/thumb_play_icon.png) no-repeat;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    z-index: 10;
+    bottom: 6px;
+    left: 6px;
+}
+
+* html div.video_thumb a.video_play_button {
+    background-image: none;
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/_images/_subpages/_video/thumb_play_icon.png', sizingMethod='crop');
+}
+

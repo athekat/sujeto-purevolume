@@ -1,0 +1,2185 @@
+
+/*****************************************************************************
+General Module Styles
+*****************************************************************************/
+
+.module_header {
+	padding: 0 0 5px 0;
+	color: #222;
+	font-size: 16px;
+	margin: 0 0 10px 0;
+	position: relative;
+	zoom: 1;
+	border-bottom: 2px solid #d7d7d7;
+}
+
+.index .module_header, .detail .module_header {
+	border-bottom: none;
+}
+
+.module {
+	margin-bottom: 30px;
+}
+
+.module.page_wrapper {
+	padding-left: 0;
+}
+
+#profile_column_wide .module {
+	padding: 10px 0 0 0;
+	zoom:1;
+}	
+
+#profile_column_narrow .module {
+	padding: 10px 0 0 0;
+	zoom:1;
+}
+
+#profile_column_wide .player_wrapper {
+	padding: 0;
+}
+
+.header_cap_right {
+	width: 100px;
+	height: 20px;
+	padding: 0;
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	text-align: right;
+}
+
+.header_cap_right a {
+	font-size: 10px;
+	font-weight: normal;
+}
+
+.header_cap_right .nodisp {
+	display: inline;
+}
+
+.module_sub_header {
+	padding: 0 0 10px 0;
+	margin: 0 0 15px 0;
+	border-bottom: 1px solid #d7d7d7;
+}
+
+.module_wrapper_2 {
+	padding: 10px;
+	border: 1px solid #d7d7d7;
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	margin-bottom: 20px;
+}
+
+.module.page_wrapper ul {
+	padding: 15px 0 0 0;
+}
+
+#profile_column_narrow .module ul, #profile_column_wide .module ul {
+	padding-left: 0;
+}
+
+.module .inner_module {
+	padding: 0 0 10px 0;
+}
+	
+.module ul li {
+	margin-bottom: 10px;
+}
+
+.module.page_wrapper {
+	padding-left: 0;
+}
+
+
+
+/*****Horizontal Lists / Vertical Format*****/
+
+.horizontal_list li {
+	float: left;
+	display: inline;
+	margin-right: 15px;
+}
+
+.vertical_format li {
+	width: 134px;
+	overflow: hidden;
+}
+
+.vertical_format li .image_container {
+	margin-bottom: 5px;
+	display: block;
+}
+
+.vertical_format li .meta .title {
+	overflow: hidden;
+}
+
+/*****Vertical List / Horizontal Formal*****/
+
+.vertical_list.horizontal_format li {
+	padding-bottom: 10px;
+	border-bottom: 1px solid #eaeaea;
+}
+
+.horizontal_format li .image_container,
+.horizontal_format li .meta,
+.horizontal_format div .image_container,
+.horizontal_format div .meta,
+.horizontal_format .image_container,
+.horizontal_format .meta {
+	float: left;
+}
+
+.page_wrapper .horizontal_format li .image_container, .detail .horizontal_format .image_container {
+	margin-right: 15px;
+}
+
+.horizontal_format li .image_container {
+	display: inline;
+	margin-right: 10px;
+}
+
+
+/********************************************
+Lists of Content (.page_column_wide)
+********************************************/
+
+.page_column_wide .horizontal_list.vertical_format li {
+	margin-right: 15px;
+}
+
+.page_column_wide .vertical_format li .meta .title {
+	width: 124px;
+}
+
+.page_column_wide .horizontal_list.vertical_format li.video,
+.page_column_wide .horizontal_list.vertical_format li.album {
+	width: 124px;
+}
+
+.page_column_wide .horizontal_list.vertical_format li.video {
+	height: 130px;
+}
+
+.page_column_wide .horizontal_list.vertical_format li.album {
+	height: 190px;
+}
+
+.page_column_wide li a.album_image img {
+	width: 120px;
+	height: 120px;
+}
+
+
+/********************************************
+Lists of Content (smaller width list items)
+********************************************/
+
+.horizontal_list.vertical_format.mini li,
+.horizontal_list.vertical_format.mini li .meta,
+.horizontal_list.vertical_format.mini li .meta p.title {
+	width: 84px;
+}
+
+.horizontal_list.vertical_format.mini li {
+	height: 110px;
+	display: inline;
+}
+
+.horizontal_list.vertical_format.mini li .image_container img {
+	width: 80px;
+}
+
+.page_column_wide .horizontal_list.vertical_format.mini li {
+	margin-right: 10px;
+}
+
+.horizontal_list.vertical_format.mini li .meta .title {
+	font-size: 11px;
+	max-height: 30px;
+}
+
+
+/*****************************************************************************
+List Options, View More
+*****************************************************************************/
+
+.list_options {
+	display: block;
+	font-size: 10px;
+	font-family: "Lucida Grande", Arial, sans-serif;
+	clear: both;
+}
+
+.playlist_container_inner .list_options {
+	margin-top: 10px;
+}	
+
+.view_more {
+	border: 1px solid #d7d7d7; 
+	padding: 4px 7px;
+	text-decoration: none;
+	float: right;
+	background: #fff;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+}
+
+.view_more:hover {
+	text-decoration: none;
+	background: #008EE8;
+	border: 1px solid #008EE8;
+	color: #fff;
+}
+
+.center_image {
+	margin-left: -62px;
+}
+
+/*****************************************************************************
+Promo Style Lists
+*****************************************************************************/
+
+
+.promo_style_list {
+	margin-bottom: 15px;
+}
+
+.promo_style_list h3, .clean_item_list h3 {
+	height: 33px;
+	margin-bottom: 15px;
+}
+
+.promo_style_item .promo_style_image {
+	float: left;
+	display: inline;
+	height: 62px;
+	width: 89px;
+	margin-right: 11px;
+}
+
+.promo_style_details {
+	padding: 10px 10px 0 0;
+	float: left;
+	width: 164px;
+}
+
+.promo_style_details h4 {
+	font-size: 11px;
+	font-weight: normal;
+	margin-bottom: 5px;
+}
+
+.promo_style_details p {
+	margin-bottom: 5px;
+}
+
+.promo_style_item {
+	padding: 0;
+	margin-bottom: 15px;
+	height: 62px;
+	background: #efefef;
+	-moz-border-radius-topright: 4px;
+	-moz-border-radius-bottomright: 4px;
+	-webkit-border-top-right-radius: 4px;
+	-webkit-border-bottom-right-radius: 4px;
+}
+
+.video_list .promo_style_item {
+	padding: 0;
+	margin-bottom: 15px;
+	height: 81px;
+}
+
+.video_list .promo_style_item .promo_style_image {
+	float: left;
+	display: inline;
+	height: 81px;
+	width: 134px;
+	margin-right: 11px;
+}
+
+.video_list .promo_style_details {
+	padding: 10px 10px 0 0;
+	float: left;
+	width: 161px;
+}
+
+.video_channel_list .promo_style_item {
+	height: 150px;
+	background: #ebebeb;
+	-moz-border-radius-topright: 4px;
+	-webkit-border-top-right-radius: 4px;
+}
+
+.video_channel_list .promo_style_item .promo_style_image {
+	height: 150px;
+	width: 300px;
+}
+
+.video_channel_list h3 {
+	height: 20px;
+	margin-bottom: 10px;
+}
+
+.video_channel_list .promo_style_details {
+	width: auto;
+	float: none;
+}
+
+
+/*****************************************************************************
+Meta (Bits of text associated with a small chunk of content)
+*****************************************************************************/
+
+.meta h2 {
+	margin-bottom: 5px;
+}
+
+.meta p {
+	font-size: 10px;
+	padding: 0;
+	margin-bottom: 5px;
+	color: #888;
+}
+
+.meta p.description, .meta p.title, .meta p.buy_links, .profile_meta p.description, .profile_meta p.title {
+	font-size: 11px;
+	color: #666;
+}
+
+p.title, p.title a {
+	line-height: normal;
+}
+
+div.meta_share_menu {
+	margin-top: 15px;
+	padding: 15px 10px 10px 10px;
+	border: 1px solid #e7e7e7;
+	border-bottom: 1px solid #d7d7d7;
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	background: #fff;
+}
+
+div.meta_share_menu p {
+	margin-bottom: 15px;
+	padding-bottom: 15px;
+}
+
+div.meta_share_menu input {
+	font-size: 11px;
+}
+
+div.meta_share_menu a {
+	text-transform: uppercase;
+}
+
+.promonote_speech {
+    width: 350px;
+    padding: 8px;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    margin-bottom: 10px;
+    color: #fff;
+    font-size: 14px;
+    text-shadow: 0 1px #111;
+    zoom:1;
+    /* opacity: .9; */
+    font-weight: normal !important;
+    font-weight: bold;
+    position: relative;
+}
+
+.promonote_speech_arrow {
+    width: 7px;
+    height: 7px;
+    background: url(/web/20180701231355im_/http://g.purevolumecdn.com/_images/promonote_speech_arrow.gif) no-repeat;
+    position: absolute;
+    bottom: 7px;
+    left: -7px;
+}
+
+.album_highlight {
+    float: right;
+    display: inline;
+    margin-left: 20px;
+    margin-right: 5px;
+}
+
+.album_highlight a {
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    background: #eaeaea;
+    display: block;
+    padding: 9px 9px 4px 9px;
+}
+
+.album_highlight a img, .album_highlight a:hover img {
+    border: none;
+}
+
+.album_highlight a:hover {
+    color: #fff;
+    text-decoration: none;
+}
+
+.album_highlight a span {
+    display: block;
+}
+
+
+/*****************************************************************************
+Meta: Mini (for smaller bits of content)
+*****************************************************************************/
+
+.meta_mini {
+	padding-left: 100px;
+}
+
+.meta_mini_image {
+	float: left;
+	margin-left: -90px;
+	display: inline;
+}
+
+.artist_profile .meta_mini_image a img {
+	width: 75px;
+	height: 50px;
+}
+
+
+/*****************************************************************************
+Comments
+*****************************************************************************/
+
+.comment_row .image_container {
+	margin-left: -74px;
+	margin-right: 10px;
+}
+
+.detail .horizontal_format li.comment_row .image_container {
+	margin-right: 10px;
+}
+
+.comment_row {
+	clear: both;
+	position: relative;
+	border-bottom: 1px solid #eaeaea;
+	zoom:1;
+	padding: 0 30px 10px 74px;
+	font-size: 11px;
+}
+
+.comment_row .item_remove {
+	right: 0;
+}
+
+.comment_row blockquote {
+	line-height: normal;
+	margin-top: 5px;
+}
+
+#comment_module ul {
+	/* border-top: 1px solid #d7d7d7; */
+	padding-top: 10px;
+}
+
+.comment_submit_container {
+	padding: 0 10px 10px 0;
+}
+
+.comment_submit_container textarea {
+	width: 95%;
+	height: 60px;
+	padding: 5px;
+	background: #fff url(/web/20180701231355im_/http://g.purevolumecdn.com/_images/page_gradient.gif) repeat-x;
+	background-position: 0 -30px;
+	border: 1px solid #ccc;
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+}
+
+#comment_index .comment_submit_container {
+	margin-bottom: 10px;
+}
+
+#comment_index .module ul li {
+	margin-bottom: 10px;
+}
+
+/* #profile_column_wide #comment_module .comment_row {
+	width: 480px;
+} */
+	
+
+/*****************************************************************************
+Albums
+*****************************************************************************/
+
+#album_index .album_like_thumb {
+	display: block;
+}
+
+.page_column_wide .horizontal_list.horizontal_format li.album .meta {
+	width: 135px;
+}
+
+.album_like_thumb {
+	margin-top: 10px;
+}
+
+
+/*****************************************************************************
+Videos
+*****************************************************************************/
+
+.video_image {
+	display: block;
+	width: 134px;
+	height: 81px;
+}
+
+span.video_thumb_container {
+	display: block;
+	width: 134px;
+	height: 81px;
+	position: relative;
+}
+
+a.video_image img {
+	width: 130px;
+	height: 77px;
+}
+
+.video_image .video_thumb_cover {
+	display: block;
+	width: 134px;
+	height: 81px;
+	background: url(/web/20180701231355im_/http://g.purevolumecdn.com/_images_new/video_thumb_cover.png) no-repeat center center;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+* html .video_image .video_thumb_cover  {
+    background-image: none;
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/_images_new/video_thumb_cover.png', sizingMethod='scale');
+}
+
+.video_like_thumb {
+	position: absolute;
+	bottom: 0;
+}
+
+.page_column_wide li .video_image {
+	width: 124px;
+	height: 74px;
+}
+
+.page_column_wide li a.video_image img {
+	width: 120px;
+	height: 70px;
+}
+
+.page_column_wide span.video_thumb_container {
+	display: block;
+	width: 124px;
+	height: 74px;
+	position: relative;
+}
+
+.page_column_wide .video_image .video_thumb_cover {
+	width: 124px;
+	height: 74px;
+}
+
+/***small video thumb***/
+
+.video_image_small {
+	display: block;
+	width: 64px;
+	height: 39px;
+}
+
+.video_image_small span.video_thumb_container {
+	display: block;
+	width: 64px;
+	height: 39px;
+	position: relative;
+}
+
+a.video_image_small img {
+	width: 60px;
+	height: 35px;
+}
+
+.video_image_small .video_thumb_cover {
+	display: block;
+	width: 64px;
+	height: 39px;
+	background: url(/web/20180701231355im_/http://g.purevolumecdn.com/_images_new/video_thumb_cover_small.png) no-repeat center center;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+* html .video_image_small .video_thumb_cover  {
+    background-image: none;
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/_images_new/video_thumb_cover_small.png', sizingMethod='scale');
+}
+
+.videos_section #section_3 .horizontal_list li {
+	margin-right: 32px;
+}
+
+.videos_section .page_column_wide .vertical_list li {
+	height: 150px;
+}
+
+.videos_section .page_column_wide .horizontal_list li {
+	margin-right: 21px;
+}
+
+.videos_section .page_column_wide .horizontal_list {
+	margin-top: 0;
+	padding-top: 0;
+}
+
+.videos_section .page_column_wide .horizontal_list h3.module_header {
+	display: none;
+}
+
+.videos_section .page_column_wide .vertical_format li.video {
+	height: 160px;
+}
+
+.videos_section .page_column_wide .module_header {
+	display: none;
+}
+
+
+/*****************************************************************************
+Artists / Users Specific
+*****************************************************************************/
+
+.page_column_wide .horizontal_list.horizontal_format li.artist .meta,
+.page_column_wide .horizontal_list.horizontal_format li.listener .meta {
+	width: 180px;
+}
+
+.horizontal_list.horizontal_format li.artist .image_container,
+.horizontal_list.horizontal_format li.listener .image_container {
+	margin-right: 10px;
+}
+
+.horizontal_list.vertical_format.mini li.listener {
+	height: 115px;
+}
+
+#listeners_module .horizontal_list.vertical_format.mini li,
+#listeners_module .horizontal_list.vertical_format.mini li .meta,
+#listeners_module .horizontal_list.vertical_format.mini li .meta p.title {
+	width: 64px;
+}
+
+#listeners_module .horizontal_list.vertical_format.mini li {
+	margin-right: 8px;
+}
+
+#listeners_module .horizontal_list.vertical_format.mini li .image_container img {
+	width: 60px;
+}
+
+
+/*****************************************************************************
+Photos
+*****************************************************************************/
+
+.page_column_wide .horizontal_list.vertical_format li.photo {
+	width: 124px;
+	margin-right: 20px;
+}
+
+.horizontal_list.vertical_format li.photo .image_container {
+	height: 124px;
+	position: relative;
+}
+
+
+.horizontal_list.vertical_format li.photo .image_container img {
+	position: absolute;
+	bottom: 0;
+	left: 50%;
+}
+
+.photo_detail_wrapper {
+	background: #eee;
+}
+
+.detail_previous_next {
+	float: right;
+}
+  
+.detail_previous_next a {
+    padding: 2px 3px 2px 3px;
+    margin-bottom: 5px;
+    float: left;
+	-moz-border-radius: 2px;
+	-webkit-border-radius: 2px;
+	font-size: 10px;
+	margin-left: 5px;
+}
+    
+.detail_previous_next a:hover {
+    color: #fff;
+    text-decoration: none;
+}
+
+
+/*****************************************************************************
+Posts
+*****************************************************************************/
+
+li.post {
+	border-bottom: 1px solid #eaeaea;
+	padding-bottom: 10px;
+}
+
+li.post h4 {
+	margin-bottom: 5px;
+}
+
+li.post p.description, li.post p.description span {
+	line-height: normal;
+}
+
+/* span.post_type {
+	background: #fff;
+	padding: 2px 4px;
+	border: 1px solid #ddd;
+	font-size: 9px;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+} */
+
+span.post_type {
+	background: #666;
+	color: #fff;
+	font-size: 9px;
+	font-weight: lighter;
+	padding: 0 4px 1px 4px;
+	-moz-border-radius: 2px;
+	-webkit-border-radius: 2px;
+	vertical-align: top;
+}
+
+li.post p span.date {
+	font-style: italic;
+}
+
+a.post_image {
+	width: 64px;
+	display: block;
+	margin-right: 10px;
+	float: left;
+}
+
+a.post_image img {
+	width: 60px;
+}
+
+/*****************************************************************************
+Events
+*****************************************************************************/
+
+.event_row {
+	padding-bottom: 10px;
+	padding-left: 0;
+	border-bottom: 1px solid #eaeaea;
+	margin-bottom: 10px;
+	font-size: 11px;
+}
+
+.page_wrapper .event_row {
+	padding-bottom: 15px;
+	padding-left: 0;
+	margin-bottom: 15px;
+}	
+
+.event_row table tr td p {
+	margin-bottom: 5px;
+}
+
+.event_row table tr td.row_date {
+	width: 26px;
+	padding-right: 15px;
+	vertical-align: top;
+}
+
+.event_row table tr td {
+	padding: 0;
+}
+
+.event_row table tr td span.venue_title {
+	text-transform: capitalize;
+}
+
+.event_row td ul.action_nav li.small_button {
+	margin-left: 10px;
+	margin-right: 0;
+}
+
+.page_wrapper .event_row table tr td.row_date {
+	width: 26px;
+	padding-right: 25px;
+}
+
+.event_row table tr td.row_location {
+	width: 254px;
+	padding-right: 25px;
+}
+
+.page_column_narrow .event_row table tr td.row_location {
+	width: 170px;
+}
+
+.page_column_narrow .event table tr td.row_location {
+	width: 100px;
+	padding-right: 25px;
+}
+
+.event_row table tr td.row_location a {
+	font-weight: bold;
+}
+
+.event_row span.event_cal {
+	width: 26px;
+	display: block;
+}
+
+.event_row span.event_cal_month {
+	background: #008ee8;
+	text-align: center;
+	width: 26px;
+	display: block;
+	text-transform: uppercase;
+	color: #fff;
+	font-size: 9px;
+	font-weight: bold;
+	padding: 2px;
+}
+
+.event_row span.event_cal_date {
+	background: #fff;
+	text-align: center;
+	border: 1px solid #ccc;
+	border-top: none;
+	width: 24px;
+	display: block;
+	font-size: 14px;
+	font-weight: bold;
+	padding: 2px 2px 2px 2px;
+}
+
+
+/*****************************************************************************
+Website Links
+*****************************************************************************/
+
+ul.website_links {
+	padding: 0 0 10px 0;
+	display: block;
+}
+
+ul.website_links li {
+	display: block;
+    border-bottom: 1px solid #eaeaea;
+	margin-bottom: 0;
+	font-size: 11px;
+}
+
+ul.website_links li a {
+	display: block;
+	padding: 10px 5px 10px 26px;
+}
+
+ul.website_links li#officialbooking a { background: url(/web/20180701231355im_/http://g.purevolumecdn.com/_images/icon_link_gen.gif) no-repeat 0 9px; }
+ul.website_links li#bandsintown a { background: url(/web/20180701231355im_/http://g.purevolumecdn.com/_images/icon_link_bandsintown.gif) no-repeat 0 9px; }
+ul.website_links li#lastfm a { background: url(/web/20180701231355im_/http://g.purevolumecdn.com/_images/icon_link_lastfm.gif) no-repeat 0 9px; }
+ul.website_links li#thehypemachine a { background: url(/web/20180701231355im_/http://g.purevolumecdn.com/_images_new/icon_link_hypem.gif) no-repeat 0 9px; }
+ul.website_links li#ilike a { background: url(/web/20180701231355im_/http://g.purevolumecdn.com/_images_new/icon_link_ilike.gif) no-repeat 0 9px; }
+ul.website_links li#myspace a { background: url(/web/20180701231355im_/http://g.purevolumecdn.com/_images/icon_link_myspace.gif) no-repeat 0 9px; }
+ul.website_links li#twitter a { background: url(/web/20180701231355im_/http://g.purevolumecdn.com/_images/icon_link_twitter2.gif) no-repeat 0 9px; }
+ul.website_links li#smartpunk a { background: url(/web/20180701231355im_/http://g.purevolumecdn.com/_images_new/icon_link_smartpunk.gif) no-repeat 0 9px; }
+ul.website_links li#emusic a { background: url(/web/20180701231355im_/http://g.purevolumecdn.com/_images_new/icon_link_emusic.gif) no-repeat 0 9px; }
+ul.website_links li#amazon a { background: url(/web/20180701231355im_/http://g.purevolumecdn.com/_images/icon_link_amazon.gif) no-repeat 0 9px; }
+ul.website_links li#itunes a { background: url(/web/20180701231355im_/http://g.purevolumecdn.com/_images_new/icon_link_itunes.gif) no-repeat 0 9px; }
+ul.website_links li#absolutepunk a { background: url(/web/20180701231355im_/http://g.purevolumecdn.com/_images_new/icon_link_absolutepunk.gif) no-repeat 0 9px; }
+ul.website_links li#youtube a { background: url(/web/20180701231355im_/http://g.purevolumecdn.com/_images/icon_link_youtube.gif) no-repeat 0 9px; }
+ul.website_links li#facebook a { background: url(/web/20180701231355im_/http://g.purevolumecdn.com/_images/icon_link_facebook.gif) no-repeat 0 9px; }
+ul.website_links li#other a { background: url(/web/20180701231355im_/http://g.purevolumecdn.com/_images/icon_link_gen.gif) no-repeat 0 9px; }
+ul.website_links li#officialwebsite a { background: url(/web/20180701231355im_/http://g.purevolumecdn.com/_images/icon_link_gen.gif) no-repeat 0 9px; }
+ul.website_links li#officialmerchstore a { background: url(/web/20180701231355im_/http://g.purevolumecdn.com/_images/icon_link_gen.gif) no-repeat 0 9px; }
+li.gen_link a, li.genlink a { background: url(/web/20180701231355im_/http://g.purevolumecdn.com/_images/icon_link_gen.gif) no-repeat 0 9px; }
+
+/*****************************************************************************
+Poster Module
+*****************************************************************************/
+
+#profile_column_narrow #poster_module {
+	padding-right: 0;
+	position: relative;
+}
+
+.poster_link img {
+	display: block;
+	width: 300px;
+}
+
+#poster_nav {
+	height: 25px;
+	background: #ededed;
+	border-top: 1px solid #fff;
+	font-size: 9px;
+}
+
+#poster_like {
+	display: block;
+	padding: 7px 0 0 10px;
+	height: 18px;
+	color: #aaa;
+	float: right;
+}
+
+#poster_like:hover {
+	text-decoration: none;
+	color: #008ee8;
+}
+
+/*****************************************************************************
+Announcement Module
+*****************************************************************************/
+
+a.announcement_image_link img {
+	width: 120px;
+	float: left;
+	margin: 0 10px 0 0;
+	zoom: 1;
+}
+
+#announcement_module a {
+	color: #008ee8;
+}
+
+
+/*****************************************************************************
+Custom Playlists
+*****************************************************************************/
+
+a.play_launch {
+	width: 32px;
+	height: 32px;
+	display: block;
+	margin-right: 10px;
+	float: left;
+	margin-top: 3px;
+	background: #008ee8 url(/web/20180701231355im_/http://g.purevolumecdn.com/_images/_audio_player/32px_play_button.png) no-repeat;
+}
+
+* html a.play_launch {
+    background-image: none;
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/_images/_audio_player/32px_play_button.png', sizingMethod='scale');
+}
+
+.playlist_albums {
+	width: 96px;
+	height: 32px;
+	position: absolute;
+	top: 3px;
+	right: 0;
+	text-align: right;
+}
+
+.playlist_albums img {
+	width: 32px;
+	height: 32px;
+}
+
+.playlist_list li {
+	margin-bottom: 10px;
+	padding: 0 110px 10px 0;
+	border-bottom: 1px solid #eaeaea;
+	position: relative;
+}
+
+a.share_playlist_button {
+	display: block;
+	background: #008ee8 url(/web/20180701231355im_/http://g.purevolumecdn.com/_images/_buttons/button_glass.png) bottom no-repeat;
+	border: 1px solid #008ee8;
+	margin-bottom: 20px;
+	padding: 12px;
+	text-align: center;
+	color: #fff;
+	font-size: 24px;
+	letter-spacing: 0;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	text-shadow: 0 1px 1px #444;
+}
+
+a.share_playlist_button:hover {
+	text-decoration: none;
+	color: #fff;
+	background-color: #008ee8;
+	border: 1px solid #008ee8;
+}
+
+/*****************************************************************************
+Audio Player: Controls
+*****************************************************************************/
+
+div.player_controls {
+    background: #1a1a1a url(/web/20180701231355im_/http://g.purevolumecdn.com/_images/_audio_player/player_corners.gif) no-repeat -5px 0px;
+    padding: 21px 0 15px 0;
+	position: relative;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	zoom:1;
+}
+
+#my_music_player_container div.player_controls, #row_1 div.player_controls {
+	-moz-border-radius-bottomleft: 0;
+	-moz-border-radius-bottomright: 0;
+	-webkit-border-bottom-left-radius: 0;
+	-webkit-border-bottom-right-radius: 0;
+}
+
+div.player_right_corners {
+    background: url(/web/20180701231355im_/http://g.purevolumecdn.com/_images/_audio_player/player_corners.gif) no-repeat;
+    width: 5px;
+    height: 54px;
+    position: absolute;
+    right: 0px;
+    top: -21px;
+}
+
+div.player_controls_buttons {
+	height: 15px;
+	position: relative;
+	padding: 1px 55px 6px 96px;
+}
+
+div.player_controls ul {
+    margin-left: -81px;
+	padding: 0;
+    list-style-type: none;
+}
+
+div.player_controls ul li {
+    float: left;
+    width: 14px;
+    margin: 0 13px 0 0px;
+}
+
+a.prev_button,
+a.play_button,
+a.pause_button,
+a.next_button {
+    background: url(/web/20180701231355im_/http://g.purevolumecdn.com/_images/_audio_player/player_buttons.gif) no-repeat;
+    width: 14px;
+    height: 14px;
+    display: block;
+    outline: none;
+}
+
+a.play_button {
+    background-position: -17px 0px;
+    width: 8px;
+    margin-left: 3px;
+}
+
+a.pause_button {
+    background-position: -28px 0px;
+    width: 12px;
+    margin-left: 0px;
+}
+ 
+a.next_button {
+    background-position: -43px 0px;
+}
+
+/*Progress Bar*/
+
+div.total_progress {
+    background: url(/web/20180701231355im_/http://g.purevolumecdn.com/_images/_audio_player/total_progress_bg2.gif) repeat-x;
+    height: 12px;
+	margin-top: 1px;
+    position: relative;
+}
+
+div.waiting_progress div.total_progress {
+	background: url(/web/20180701231355im_/http://g.purevolumecdn.com/_images/_audio_player/waiting_progress.gif) repeat-x;
+}
+
+div.played_progress {
+    height: 12px; 
+    width: 0%;
+    position: absolute;
+	top: 0;
+	left: 0;
+    border-right: 3px solid #008ee8;
+    z-index: 1;
+	cursor: pointer;
+}
+
+div.total_progress:hover  div.played_progress {
+	border-right: 3px solid #111;
+}
+
+div.loaded_progress {
+	background: url(/web/20180701231355im_/http://g.purevolumecdn.com/_images/_audio_player/loaded_progress_bg.gif) repeat-x;
+    height: 12px; 
+    width: 0%;
+    position: absolute;
+	top: 0;
+	left: 0;
+	cursor: pointer;
+}
+
+span.progress_corner_left,
+span.progress_corner_right {
+    background: url(/web/20180701231355im_/http://g.purevolumecdn.com/_images/_audio_player/progress_corner_left.png) no-repeat;
+    position: absolute;
+    z-index: 2;
+    top: 0px;
+    width: 5px;
+    height: 12px;
+}
+
+* html span.progress_corner_left {
+    background-image: none;
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/_images/_audio_player/progress_corner_left.png', sizingMethod='scale');
+}
+
+span.progress_corner_left {
+    left: 0px;
+}
+
+span.progress_corner_right {
+    background: url(/web/20180701231355im_/http://g.purevolumecdn.com/_images/_audio_player/progress_corner_right.png) no-repeat;
+    left: none;
+    right: 0px;
+}
+
+* html span.progress_corner_right {
+    background-image: none;
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/_images/_audio_player/progress_corner_right.png', sizingMethod='scale');
+}
+
+p.time_elapsed {
+    position: absolute;
+    right: 15px;
+    top: 1px;
+    color: #fff;
+    font-size: 11px;
+	margin-bottom: 0;
+}
+
+div.track_meta_container {
+	padding: 9px 15px 0 15px;
+	position: relative;
+}
+
+div.track_meta_container_inner {
+	margin: 0;
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	background: #000;
+	padding: 10px;
+	zoom: 1;
+}
+
+.track_meta_album_image {
+	width: 50px;
+	height: 50px;
+}
+
+div.full_controls {
+	padding: 9px 103px 0 15px;
+}
+
+div.secondary_controls {
+	width: 72px;
+	position: absolute;
+	top: 10px;
+	right: 15px;
+}
+
+.player_volume {
+	width: 72px;
+	height: 12px;
+	margin-top: 1px;
+	position: relative;
+}
+
+.player_volume .volume_icon {
+	width: 14px;
+	height: 12px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	background: url(/web/20180701231355im_/http://g.purevolumecdn.com/_images/_audio_player/volume_icon.gif) no-repeat;
+}
+
+.player_volume .volume_meter_bg {
+	width: 58px;
+	position: absolute;
+	top: 0;
+	left: 14px;
+	cursor: pointer;
+}
+
+.player_volume .volume_meter, .player_volume .volume_meter_bg {
+	height: 12px;
+	background: #303030 url(/web/20180701231355im_/http://g.purevolumecdn.com/_images/_audio_player/volume_meter.gif) repeat-x;
+}
+
+.player_volume .volume_meter {
+	background-color: #008EE8;
+}
+
+a.player_popout {
+	display: block;
+	width: 72px;
+	height: 19px;
+	background: #2a2a2a url(/web/20180701231355im_/http://g.purevolumecdn.com/_images/_audio_player/popout_player.gif) no-repeat;
+	margin-top: 10px;
+}
+
+a.player_popout:hover {
+	background-position: 0 -19px;
+}
+
+a.player_embed {
+	display: block;
+	width: 72px;
+	height: 19px;
+	background: #2a2a2a url(/web/20180701231355im_/http://g.purevolumecdn.com/_images/_audio_player/embed_player2.gif) no-repeat;
+	margin-top: 10px;
+}
+
+a.player_embed:hover {
+	background-position: 0 -19px;
+}
+
+div.track_meta_album_art {
+	float: left;
+	width: 54px;
+	margin-right: 10px;
+	display: block;
+}
+
+div.track_meta_list {
+	float: left;
+}
+
+div.track_meta_list p {
+	font-size: 10px;
+	margin-bottom: 4px;
+	color: #666;
+}
+
+div.track_meta_list p a {
+	color: #fff;
+	text-decoration: none;
+	letter-spacing: .5px;
+}
+
+div.track_meta_list p a.track_meta_song_name {
+	font-size: 15px;
+}
+
+
+#persistent_container div.player_controls  {
+	background: none;
+    padding: 10px 0 0 0;
+    height: 25px;
+    margin-bottom: 5px;
+    position: relative;
+}
+
+#persistent_container div.player_controls ul  {
+}
+
+#persistent_container a#play_button {
+    margin-left: 0;
+}
+
+#persistent_container ul li p.time_elapsed {
+    margin: 0;
+	padding: 0;
+	position: static;
+    color: #fff;
+    font-size: 11px;
+}
+
+
+/*****************************************************************************
+Audio Player: Playlist
+*****************************************************************************/
+
+div#my_music_player_container div.playlist_container_inner {
+	height: 400px;
+	overflow: auto;
+}
+
+div.playlist_container_inner {
+	position: relative;
+}
+
+
+div.playlist_item {
+    padding: 8px 200px 8px 0;
+    border-bottom: 1px solid #eaeaea;
+    position: relative;
+    font-size: 11px;
+	height: 14px;
+	zoom:1;
+}
+
+div.playlist_item:hover {
+	background: #f2f9fe;
+}
+
+div.playlist_item div.recommended_by {
+	position: absolute;
+	padding: 10px;
+	border: 1px solid #ccc;
+	top: 26px;
+	right: 100px;
+	background: #fff;
+	width: 220px;
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	z-index: 1500;
+	display: none;
+}
+
+div.playlist_item:hover div.recommended_by {
+	display: block;
+}
+
+div.playlist_item div.recommended_by div.bubble_arrow {
+	width: 7px;
+	height: 5px;
+	position: absolute;
+	top: -4px;
+	right: 70px;
+	background: url(/web/20180701231355im_/http://g.purevolumecdn.com/_images/_audio_player/recommended_bubble_arrow.gif) no-repeat;
+}
+
+div.playlist_item a.recommender_image {
+	display: block;
+}
+
+div.playlist_item div.recommender_meta {
+	margin: 4px 0 0 70px;
+	width: 140px;
+	overflow: hidden;
+}
+
+div.playlist_item div.recommender_meta p {
+	margin-bottom: 5px;
+}
+
+a.track_name {
+    /* display: block; */
+	position: relative;
+	z-index: 10;
+    padding-left: 40px;
+    cursor: pointer;
+	color: #222;
+}
+
+a.track_name:hover {
+	text-decoration: none;
+}
+
+a.track_name em {
+    color: #aaa;
+    font-size: 10px;
+    display: none;
+}
+
+span.playlist_item_number {
+	color: #999;
+	margin-right: 6px;
+}
+
+/****tooltip****/
+
+#tooltip{
+	position: absolute;
+	border: 1px solid #666;
+	background: #fff;
+	padding: 2px 5px;
+	color: #333;
+	display: none;
+	z-index: 10000;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+}
+
+/****end tooltip****/	
+
+span.playlist_play_button,
+span.playlist_pause_button {
+    background: #008ee8 url(/web/20180701231355im_/http://g.purevolumecdn.com/_images/_audio_player/playlist_play_button.png) no-repeat;
+    width: 16px;
+    height: 16px;
+    position: absolute;
+	top: 7px;
+    left: 15px;
+}
+
+* html span.playlist_play_button {
+    background-image: none;
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/_images/_audio_player/playlist_play_button.png', sizingMethod='scale');
+}
+
+span.playlist_pause_button {
+    background-image: url(/web/20180701231355im_/http://g.purevolumecdn.com/_images/_audio_player/playlist_paused_button.png);
+}
+
+* html span.playlist_pause_button {
+    background-image: none;
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/_images/_audio_player/playlist_paused_button.png', sizingMethod='scale');
+}
+
+/* a.download_link, div.no_download {
+    background: #008ee8 url(/web/20180701231355im_/http://g.purevolumecdn.com/_images/_audio_player/download_button.gif) no-repeat;
+    position: absolute;
+    right: 15px;
+    top: 6px;
+    width: 15px;
+    height: 16px;
+}
+
+div.no_download {
+    background: #ccc url(/web/20180701231355im_/http://g.purevolumecdn.com/_images/_audio_player/download_button.gif) no-repeat;
+} */
+
+a.download_link {
+	/* position: absolute;
+	right: 42px;
+	top: 9px;
+	width: 90px;
+	display: block;
+	text-align: right; */
+	float: right;
+	padding-top: 3px;
+	height: 9px;
+	font-size: 9px;
+	margin-left: 12px;
+}
+
+a.download_link:hover {
+	text-decoration: underline;
+}
+
+.track_options a.add_link {
+	float: right;
+	padding: 1px 6px 1px 6px;
+	background: #fff url(/web/20180701231355im_/http://g.purevolumecdn.com/_images/_buttons/button_glass.png) bottom no-repeat;
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	border: 1px solid #ccc;
+}
+
+.track_options a.add_link:hover {
+	color: #fff;
+	background: #008ee8;
+	border: 1px solid #008ee8;
+	text-decoration: none;
+}
+
+.track_options a.add_link_added {
+	color: #222;
+	padding: 2px 18px 2px 2px;
+	height: 12px;
+	background: url(/web/20180701231355im_/http://g.purevolumecdn.com/_images/_audio_player/check_mark.gif) no-repeat center right;
+	cursor: default;
+	float: right;
+}
+
+.track_options a.add_link_added:hover {
+	text-decoration: none;
+}
+
+div.playlist_item_added, div.playlist_item_added:hover {
+	background-color: #f9f9f9;
+}
+
+div.playlist_item_added a.track_name {
+	color: #999;
+}
+
+div.playlist_item_added span.playlist_play_button, div.playlist_item_added span.playlist_pause_button {
+	background-color: #333;
+}
+
+span.track_options {
+	position: absolute;
+	right: 15px;
+	top: 7px;
+	width: 202px;
+	display: block;
+	height: 16px;
+}
+
+span.track_options .track_options_link {
+	width: 16px;
+	height: 16px;
+	display: block;
+	float: right;
+	margin-left: 12px;
+}
+
+span.track_options .track_options_link img {
+	width: 16px;
+	height: 16px;
+	display: block;
+}
+
+span.track_options .buy_track {
+	width: 16px;
+	height: 16px;
+	display: block;
+	float: right;
+	margin-left: 12px;
+}
+
+span.track_options .buy_track_itunes { background: url(/web/20180701231355im_/http://g.purevolumecdn.com/_images_new/icon_link_itunes.gif) no-repeat; } 
+span.track_options .buy_track_amazon { background: url(/web/20180701231355im_/http://g.purevolumecdn.com/_images_new/icon_link_amazon.gif) no-repeat; } 
+span.track_options .buy_track_emusic { background: url(/web/20180701231355im_/http://g.purevolumecdn.com/_images_new/icon_link_emusic.gif) no-repeat; } 
+
+a.track_like, a.track_remove {
+    background: #ccc url(/web/20180701231355im_/http://g.purevolumecdn.com/_images/_audio_player/track_like_heart.png) no-repeat;
+    display: block;
+	float: right;
+	margin-left: 12px;
+    width: 15px;
+    height: 16px;
+	z-index: 1;
+}
+
+* html a.track_like {
+    background-image: none;
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/_images/_audio_player/track_like_heart.png', sizingMethod='crop');
+}
+
+a.track_remove {
+    background: #ccc url(/web/20180701231355im_/http://g.purevolumecdn.com/_images/_audio_player/track_like_x.png) no-repeat;
+}
+
+* html a.track_remove {
+    background-image: none;
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/_images/_audio_player/track_like_x.png', sizingMethod='crop');
+}
+
+#my_music_player_container span.track_options .buy_track {
+	display: none;
+}
+
+a.track_like:hover, a.track_remove:hover, .playlist_item .track_options a.selected, .playlist_item .track_options a.selected:hover, #my_music_player_container a.track_remove:hover {
+    background-color: #008ee8;
+}
+
+div.song_selected {
+    background: #f9f9f9;
+    display: block;
+}
+
+#player1 {
+    position: absolute;
+    z-index: -100;
+}
+
+.playlist_container div.empty_row .playlist_play_button {
+	background-color: #ccc;
+}
+
+.playlist_container {
+	padding-top: 10px;
+	background: #fff;
+}
+
+.playlist_loading {
+	background: #fff url(/web/20180701231355im_/http://g.purevolumecdn.com/_images/loading_2.gif) center no-repeat;
+	height: 150px;
+}
+
+.playlist_container a.disabled {
+	background-color: #fff;
+}
+
+.playlist_container a.disabled:hover {
+	background-color: #eaeaea;
+	cursor: default;
+}
+
+div.track_count {
+    text-align: center;
+    font-size: 9px;
+    color: #999;
+    height: 14px;
+    width: 80px;
+    margin: 0 auto;
+    padding-top: 10px;
+}
+
+div.loading_more_songs {
+	bottom: 20px;
+	height: 44px;
+	position: absolute;
+	width: 100%;
+	z-index: 20;	
+}
+
+div.loading_more_songs_inner {
+	background: #E5F3FD;
+	bottom: 0;
+	color: #4CB0EF;
+	font-size: 10px;
+	height: 24px;
+	opacity: 0.8;
+	filter:alpha(opacity=80);
+	padding: 10px 0;
+	text-align: center;
+	width: 200px;
+	position: relative;
+	margin: 0 auto;
+	z-index: 25;
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;	
+}
+
+/**********jScroll Styles************/
+
+a.jScrollArrowUp {
+	text-indent: -4000px;
+	height: 16px;
+	width: 65px;
+	float: left;
+	display: inline;
+	margin-left: 185px;
+	margin-top: 8px;
+    background: url(/web/20180701231355im_/http://g.purevolumecdn.com/_images/_audio_player/scroll_up_mask.gif) no-repeat;
+}
+
+a.jScrollArrowUp:hover {
+    background: url(/web/20180701231355im_/http://g.purevolumecdn.com/_images/_audio_player/scroll_up_hover_mask.png) no-repeat;
+}
+
+a.jScrollArrowDown {
+	text-indent: -4000px;
+	height: 16px;
+	width: 65px;
+	float: right;
+	display: inline;
+	margin-right: 185px;
+	margin-top: 8px;
+    background: url(/web/20180701231355im_/http://g.purevolumecdn.com/_images/_audio_player/scroll_down_mask.gif) no-repeat;
+}
+a.jScrollArrowDown:hover {
+    background: url(/web/20180701231355im_/http://g.purevolumecdn.com/_images/_audio_player/scroll_down_hover_mask.png) no-repeat;
+}
+a.jScrollActiveArrowButton, a.jScrollActiveArrowButton:hover {
+	/*background-color: #f00;*/
+}
+
+a.jScrollArrowUp, a.jScrollArrowDown, a.jScrollArrowUp:hover, a.jScrollArrowDown:hover {
+	background-color: #008ee8;
+}
+
+.jScrollPaneContainer {
+	position: relative;
+	overflow: hidden;
+	z-index: 1;
+}
+
+.jScrollPaneTrack {
+	position: absolute;
+	cursor: pointer;
+	right: 0;
+	top: 0;
+	height: 100%;
+	background: #aaa;
+}
+.jScrollPaneDrag {
+	position: absolute;
+	background: #666;
+	cursor: pointer;
+	overflow: hidden;
+}
+.jScrollPaneDragTop {
+	position: absolute;
+	top: 0;
+	left: 0;
+	overflow: hidden;
+}
+.jScrollPaneDragBottom {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	overflow: hidden;
+}
+
+/******end jScroll Styles*********/
+
+a.track_name {
+display: inline;
+}
+
+div.player_controls {
+    background-image: none;
+    -moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	position: relative;
+	z-index: 50;
+	background: #1a1a1a;
+}
+
+a.options_menu {
+    float: right;
+    margin-left: 12px;
+}
+
+
+div.player_controls .playlist_select {
+    background: #000;
+    padding: 6px 10px;
+    margin: 10px 15px 0 15px;
+    -moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	position: relative;
+	z-index: 55;
+}
+
+div.player_controls ul.playlist_dropdown_menu {
+    margin: 0;
+}
+
+div.player_controls ul.playlist_dropdown_menu li {
+    float: none;
+    width: auto;
+    border-bottom: 1px solid #171717;
+    color: #bbb;
+    margin: 0;
+}
+
+div.player_controls ul.playlist_dropdown_menu li a {
+    color: #bbb;
+    padding: 6px 10px;
+    display: block;
+}
+
+div.player_controls ul.playlist_dropdown_menu li.official_playlist a {
+    background: url(/web/20180701231355im_/http://g.purevolumecdn.com/_images/_audio_player/playlist_dropdown_star.gif) no-repeat;
+    background-position: 10px 9px;
+    padding: 6px 10px 6px 26px;
+}
+
+div.player_controls ul.playlist_dropdown_menu li a:hover {
+    color: #fff;
+    background-color: #171717;
+    text-decoration: none;
+}
+
+div.player_controls ul.playlist_dropdown_menu li a.disabled, div.player_controls ul.playlist_dropdown_menu li a.disabled:hover {
+    color: #bbb;
+    background-color: none;
+    opacity: 0.2;
+	filter:alpha(opacity=20);
+	cursor: default;
+	zoom:1;
+}
+
+div.playlist_dropdown {
+    background: #1d1d1d;
+    top: 37px;
+    right: 10px;
+    z-index: 5000;
+    position: absolute;
+    padding: 10px;
+    width: 315px;
+	height: 160px;
+	overflow: auto;
+    -moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+}
+
+div.playlist_container_inner {
+    z-index: 10;
+}
+
+div.playlist_select_text {
+    float: left;
+    padding: 8px 10px 0 0;
+    width: 85px;
+    font-size: 11px;
+}
+
+a.playlist_select_link {
+    display: block;
+    float: left;
+    background: #2b2b2b url(/web/20180701231355im_/http://g.purevolumecdn.com/_images/_audio_player/playlist_dropdown_link_arrow.gif) top right no-repeat;
+    padding: 8px 10px 0 10px;
+    height: 22px;
+    width: 315px;
+    color: #dcdcdc;
+    -moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+}
+
+a.playlist_select_link:hover {
+    color: #fff;
+    background-position: bottom right;
+    text-decoration: none;
+}
+
+/*****************************************************************************
+Track Options
+*****************************************************************************/
+
+.track_options_menu_container {
+    width: 15px;
+    height: 16px;
+    position: relative;
+    float: right;
+    margin-left: 12px;
+    display: block;
+}
+    
+.track_options_menu_button {
+    width: 15px;
+    height: 16px;
+    display: block;
+    background: #ccc url(/web/20180701231355im_/http://g.purevolumecdn.com/_images/_audio_player/track_options_menu_button.gif);
+    position: relative;
+    z-index: 0;
+}
+
+.playlist_item:hover .track_options_menu_button, .playlist_item:hover .track_options_menu_button:hover {
+    background-color: #008EE8;
+}
+
+.track_options_menu {
+    width: 110px;
+    position: absolute;
+    top: 12px;
+    right: 0;
+    background: #fff;
+    border: 1px solid #bbb;
+    z-index: 10000;
+    display: none;
+    zoom:1;
+}
+
+.track_options_menu ul {
+    z-index: 10005;
+    width: 110px;
+    position: relative;
+    zoom:1;
+    background: #fff;
+}
+
+.track_options_menu ul li {
+    padding: 0;
+    font-size: 9px;
+    background: #fff;
+    border-bottom: 1px solid #eaeaea;
+    margin-bottom: 0;
+    position: relative;
+    z-index: 10010;
+    zoom:1;
+    width: 110px;
+}
+
+.track_options_menu ul li a {
+    padding: 5px;
+    display: block;
+    background: #fff;
+    position: relative;
+    z-index: 10015;
+    zoom:1;
+}
+
+.track_options .track_options_menu ul li a.selected {
+	padding: 5px 5px 5px 23px;
+	background: #fff url(/web/20180701231355im_/http://g.purevolumecdn.com/_images/_audio_player/check_mark.gif) no-repeat;
+	color: #111;
+	cursor: default;
+}
+
+.track_options .track_options_menu ul li a.selected:hover {
+	background: #fff url(/web/20180701231355im_/http://g.purevolumecdn.com/_images/_audio_player/check_mark.gif) no-repeat;
+}
+
+.track_options_menu ul li a.disabled {
+    color: #bbb;
+    cursor: default;
+}
+
+.track_options_menu ul li a.disabled:hover {
+    background: #fff;
+}
+
+.track_options_menu ul li a:hover {
+    text-decoration: none;
+    background: #eaeaea;
+}
+
+/*****************************************************************************
+Button Player
+*****************************************************************************/
+
+#audio_player_button_ui_id {
+    width: 16px;
+	height: 16px;
+}
+
+#audio_player_button_ui_id div.playlist_item {
+    padding: 0;
+    border-bottom: none;
+    position: relative;
+    font-size: 11px;
+    cursor: pointer;
+	background: #eee;
+	zoom:1;
+}
+
+#audio_player_button_ui_id #audio_player_ui_id {
+	margin-bottom: 0;
+}
+
+#audio_player_button_ui_id div.playlist_container_inner {
+	padding-top: 0;
+}
+
+#audio_player_button_ui_id a.track_name {
+	padding-left: 0;
+	width: 16px;
+	height: 16px;
+}
+
+/***New Button Player***/
+
+.button_player {
+	width: 66px;
+	padding: 4px 3px 3px 21px;
+	height: 13px;
+	background: #ddd url(/web/20180701231355im_/http://g.purevolumecdn.com/_images/_audio_player/bp_bg.gif) no-repeat;
+	position: relative;
+}
+
+.result_item_button {
+	float: right;
+	margin-top: 18px; 
+}
+
+.play_button_container {
+	width: 16px;
+	height: 16px;
+	position: absolute;
+	top: 2px;
+	left: 4px;
+}
+
+.button_player div.total_progress {
+	margin-top: 0;
+	margin-right: 2px;
+	height: 13px;
+	background: #ccc url(/web/20180701231355im_/http://g.purevolumecdn.com/_images/_audio_player/bp_total_progress_bg.gif) repeat-x;
+}
+
+div.button_player div.waiting_progress div.total_progress {
+	background: url(/web/20180701231355im_/http://g.purevolumecdn.com/_images/_audio_player/bp_waiting_progress.gif) repeat-x;
+}
+
+.button_player span.progress_corner_left,
+.button_player span.progress_corner_right {
+    background: url(/web/20180701231355im_/http://g.purevolumecdn.com/_images/_audio_player/bp_progress_corner_left.png) no-repeat;
+    position: absolute;
+    z-index: 2;
+    top: 0;
+    width: 9px;
+    height: 13px;
+}
+
+* html .button_player span.progress_corner_left {
+    background-image: none;
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/_images/_audio_player/bp_progress_corner_left.png', sizingMethod='scale');
+}
+
+.button_player span.progress_corner_left {
+    left: 0;
+}
+
+.button_player span.progress_corner_right {
+    background: url(/web/20180701231355im_/http://g.purevolumecdn.com/_images/_audio_player/bp_progress_corner_right.png) no-repeat;
+    left: none;
+    right: 0;
+	width: 8px;
+}
+
+* html .button_player span.progress_corner_right {
+    background-image: none;
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/_images/_audio_player/bp_progress_corner_right.png', sizingMethod='scale');
+}
+
+
+.button_player .play_button,
+.button_player .pause_button {
+	background: #008ee8 url(/web/20180701231355im_/http://g.purevolumecdn.com/_images/_audio_player/bp_play_button.png) no-repeat;
+    width: 16px;
+    height: 16px;
+    position: relative;
+	top: 0;
+    left: 0;
+	margin: 0;
+	background-position: 0 0;
+	display: block;
+}
+
+* html .button_player .play_button {
+    background-image: none;
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/_images/_audio_player/bp_play_button.png', sizingMethod='scale');
+}
+
+.button_player .pause_button {
+    background: #008ee8 url(/web/20180701231355im_/http://g.purevolumecdn.com/_images/_audio_player/bp_pause_button.png) no-repeat;
+}
+
+* html .button_player .pause_button {
+    background-image: none;
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/_images/_audio_player/bp_pause_button.png', sizingMethod='scale');
+}
+
+.button_player div.loaded_progress {
+	background: url(/web/20180701231355im_/http://g.purevolumecdn.com/_images/_audio_player/bp_loaded_progress_bg.gif) repeat-x;
+
+
+
+/*****************************************************************************
+Profiles: Index Page Module Styles
+*****************************************************************************/
+
+.page_column_wide .page_wrapper .horizontal_list.horizontal_format li {
+	width: 274px;
+	margin-right: 20px;
+	margin-bottom: 25px;
+}
+
+.page_column_wide .page_wrapper .horizontal_list.horizontal_format li.post {
+	width: auto;
+}
+
+
+#fans_index #listeners_module .horizontal_list.horizontal_format li {
+	width: 274px;
+	margin-right: 20px;
+}
+
+#listeners_module .horizontal_list.vertical_format.mini li .meta,
+#listeners_module .horizontal_list.vertical_format.mini li .meta p.title {
+	width: auto;
+}
+
+
+.page_wrapper .horizontal_list.horizontal_format.mini li.listener {
+	height: 65px;
+	display: inline;
+}
+
+.page_wrapper .horizontal_list.horizontal_format.mini li {
+	height: 60px;
+	display: inline;
+}
+
+.page_wrapper .module_header {
+	color: #222;
+	font-size: 18px;
+	font-family: "Lucida Grande", "Lucida Sans", "Lucida Sans Unicode", Arial;
+	font-weight: bold;
+	margin-bottom: 20px;
+	padding: 0;
+	background: none;
+	border-bottom: none;
+	height: auto;
+}
+
+.page_wrapper .meta p.nodisp {
+	display: block;
+}
+
+.page_wrapper .module_header .header_cap_right, .page_wrapper .list_options {
+	display: none;
+}
+
+.page_wrapper .module {
+	background: none;
+}
+
+.module.page_wrapper .inner_module {
+	padding-top: 0;
+}
+
+.module.page_wrapper ul {
+	padding: 0;
+}
+
+.module.page_wrapper ul li {
+	margin-bottom: 20px;
+}
+
+.module.page_wrapper ul li.small_button {
+	margin-bottom: 0;
+	margin-right: 10px;
+}
+
+#videos .page_wrapper ul li, #video_index .page_wrapper ul li {
+	height: 150px;
+	margin-right: 22px;
+	position: relative;
+}
+
+
+img {-ms-interpolation-mode:bicubic;}.ie7
+img {-ms-interpolation-mode:bicubic;}.ie8
+
+
+
+/*
+     FILE ARCHIVED ON 23:13:55 Jul 01, 2018 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 03:58:04 Aug 14, 2023.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  captures_list: 117.694
+  exclusion.robots: 0.137
+  exclusion.robots.policy: 0.122
+  cdx.remote: 0.093
+  esindex: 0.013
+  LoadShardBlock: 79.691 (3)
+  PetaboxLoader3.datanode: 89.018 (5)
+  load_resource: 120.407 (2)
+  PetaboxLoader3.resolve: 100.927 (2)
+*/

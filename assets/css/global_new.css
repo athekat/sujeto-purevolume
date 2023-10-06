@@ -1,0 +1,1315 @@
+
+* {
+	padding: 0px;
+	margin: 0px;
+	line-height: normal;
+}
+
+:focus {
+    outline: 0;
+}
+
+body {
+	background: #000;	
+	font: normal normal 12px "Lucida Grande", Arial, sans-serif;
+	color: #666;
+	margin: 0;
+	padding: 0;
+}
+
+#body_inner {
+	background: #c0c0c0;
+	font: normal normal 12px "Lucida Grande", Arial, sans-serif;
+	color: #b1b1b1;
+	margin: 0;
+	padding: 0;
+	height: 100%;
+}
+
+div#container {
+	margin: 0 auto;
+	width: 950px;
+	padding: 0;
+	position: relative;
+}
+
+iframe {
+	border: none;
+}
+
+ul {
+	list-style-type: none;
+}
+
+a img {
+	border: none;
+}
+
+p {
+	margin: 0 0 10px 0px;
+	line-height: normal;
+	text-align: left;
+}
+
+#page_container em {
+	font-style: italic;
+}
+
+h3, h4, h5 {
+	margin-top: 0;
+	color: #222;
+}
+
+h4, h5 {
+	font-size: 14px;
+	margin-bottom: 10px;
+}
+
+h2, h2 a {
+	color: #222;
+	font-size: 18px;
+	font-family: "Lucida Grande", "Lucida Sans", "Lucida Sans Unicode", Arial, sans-serif;
+	margin-bottom: 0;
+	padding-bottom: 0;
+	line-height: normal;
+}
+
+h2 a:hover {
+	text-decoration: none;
+}
+
+h2 span {
+	font-weight: normal;
+	font-size: 16px;
+}
+
+a {
+	color: #008ee8;
+	outline: none;
+	cursor: pointer;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #008ee8;
+	text-decoration: underline;
+}
+
+.online_now_icon {
+	background-color: #008ee8;
+}
+
+input {
+    font-size: 14px;
+	padding: 5px;
+}
+
+textarea {
+	font-family: 'lucida grande', Arial, sans-serif;
+	font-size: 14px;
+}
+
+.clearfix:after {
+    content: " "; 
+    display: block; 
+    height: 0; 
+    clear: both; 
+    visibility: hidden;
+}
+
+table {
+	border-collapse: collapse;
+}
+
+.clearfix {
+	zoom:1;
+}
+
+.nodisp {
+	line-height: 0px;
+	display: none;
+}
+
+.clear {
+	clear: both;
+	line-height: 0px;
+}
+
+.float {
+	float: left;
+}
+
+.no_float {
+	float: none;
+}
+
+.float_right {
+	float: right;
+}
+
+.link_line {
+	text-decoration: underline;
+}
+
+.link_line:hover {
+	text-decoration: none;
+}
+
+.highlight_yellow {
+	line-height: normal;
+	background: #ffffcc;
+}
+
+.highlight_blue {
+	line-height: normal;
+	background: #dcf0f9;
+}
+
+.highlight_light_blue {
+	line-height: normal;
+	background: #f3fafe;
+}
+
+.large_text, p.large_text, span.large_text, .meta p.large_text, a.large_text {
+	font-size: 13px;
+}
+
+.very_large_text, .very_large_text p, a.very_large_text {
+	font-size: 15px;
+}
+
+.smaller_text {
+	font-size: 11px;
+}
+
+.small_text {
+	font-size: 10px;
+}
+
+.mini_text {
+	font-size: 9px;
+}
+
+.new {
+	background: #d51244;
+	color: #fff;
+	font-size: 9px;
+	font-weight: lighter;
+	padding: 0 4px 1px 4px;
+	-moz-border-radius: 2px;
+	-webkit-border-radius: 2px;
+	vertical-align: top;
+}
+
+a span.new {
+	cursor: pointer;
+}
+
+ul.file_list {
+	margin-bottom: 10px;
+}
+
+ul.file_list li {
+	padding: 5px;
+	margin-bottom: 1px;
+}
+
+.message_success, .message_error {
+	padding: 10px;
+	line-height: normal;
+	background: #dcf0f9;
+	margin-bottom: 10px;
+	border: 3px double #b6ddef;
+}
+
+.message_error {
+	background: #f5e0e0;
+	border: 3px double #e9bbbb;
+}
+
+.item_remove {
+	display: block;
+	height: 16px;
+	width: 17px;
+	position: absolute;
+	background: #ddd url(/web/20180701231355im_/http://g.purevolumecdn.com/_images_new/icon_remove.gif) no-repeat;
+	top: 0;
+	right: 10px;
+}
+
+.item_remove:hover {
+	background-position: 0 -16px;
+}
+
+iframe#ie_pos {
+	width: 660px;
+	height: 700px;
+	position: absolute;
+	filter:mask();
+	border: none;
+	z-index: -1;
+	top: 0;
+	margin: auto;
+}
+
+.image_container img {
+	padding: 1px;
+	/* background: #fff; */
+	border: 1px solid #ccc;
+	display: block;
+}
+
+a.image_container:hover img {
+	border: 1px solid #008ee8;
+}
+
+.include_artist_genres table tr td {
+	font-size: 11px;
+}
+
+.rounded_container_blue {
+	background: #d7effd;
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	padding: 30px 20px 20px 20px;
+	border: 1px solid #76c3f4;
+}
+
+.signup_terms {
+	margin-bottom: 0;
+	background: #fff;
+	padding: 10px;
+	border: 1px solid #a1d7f8;
+}
+
+#recaptcha_image {
+	/*border: 1px solid #a1d7f8;
+	background: #fff;
+	*/
+	padding: 5px;
+}
+
+.corners_container {
+	position: relative;
+}
+
+span.corner {
+	display: block;
+	width: 3px;
+	height: 3px;
+	position: absolute;
+}
+
+span.tl { top: 0; left: 0; background: url(/web/20180701231355im_/http://g.purevolumecdn.com/_images/corners_tl.png) no-repeat; }
+span.tr { top: 0; right: 0; background: url(/web/20180701231355im_/http://g.purevolumecdn.com/_images/corners_tr.png) no-repeat; }
+span.bl { bottom: 0; left: 0; background: url(/web/20180701231355im_/http://g.purevolumecdn.com/_images/corners_bl.png) no-repeat; }
+span.br { bottom: 0; right: 0; background: url(/web/20180701231355im_/http://g.purevolumecdn.com/_images/corners_br.png) no-repeat; }
+
+
+* html span.tl {
+    background-image: none;
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/_images/corners_tl.png', sizingMethod='scale');
+}
+
+* html span.tr {
+    background-image: none;
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/_images/corners_tr.png', sizingMethod='scale');
+}
+
+* html span.bl {
+    background-image: none;
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/_images/corners_bl.png', sizingMethod='scale');
+}
+
+* html span.br {
+    background-image: none;
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/_images/corners_br.png', sizingMethod='scale');
+}
+
+/***dark corners***/
+
+.dark_page span.tl { background: url(/web/20180701231355im_/http://g.purevolumecdn.com/_images/_profile_frontend/_dark/corners_tl.png) no-repeat; }
+.dark_page span.tr { background: url(/web/20180701231355im_/http://g.purevolumecdn.com/_images/_profile_frontend/_dark/corners_tr.png) no-repeat; }
+.dark_page span.bl { background: url(/web/20180701231355im_/http://g.purevolumecdn.com/_images/_profile_frontend/_dark/corners_bl.png) no-repeat; }
+.dark_page span.br { background: url(/web/20180701231355im_/http://g.purevolumecdn.com/_images/_profile_frontend/_dark/corners_br.png) no-repeat; }
+
+
+* html .dark_page span.tl {
+    background-image: none;
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/_images/_profile_frontend/_dark/corners_tl.png', sizingMethod='scale');
+}
+
+* html .dark_page span.tr {
+    background-image: none;
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/_images/_profile_frontend/_dark/corners_tr.png', sizingMethod='scale');
+}
+
+* html .dark_page span.bl {
+    background-image: none;
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/_images/_profile_frontend/_dark/corners_bl.png', sizingMethod='scale');
+}
+
+* html .dark_page span.br {
+    background-image: none;
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/_images/_profile_frontend/_dark/corners_br.png', sizingMethod='scale');
+}
+	
+
+/*****************************************************************************
+Common Color Styles
+*****************************************************************************/
+
+.pvblue {
+	color: #008ee8;
+}
+
+.super_light, p.super_light, span.super_light, a.super_light {
+	color: #bbb;
+}
+
+.light, p.light, span.light, a.light {
+	color: #888;
+}
+
+.light_blue {
+	color: #53b4f0;
+}
+
+.medium, p.medium, span.medium, a.medium, p span.medium  {
+	color: #666;
+}
+
+.dark, p.dark, span.dark, a.dark, p span.dark, .stats span, .meta p.dark {
+	color: #222;
+}
+
+.red, a.red, a.red:hover {
+	color: #d51244;
+}
+
+
+/*****************************************************************************
+General Overlay Styles
+*****************************************************************************/
+
+#overlay_page_cover {
+	background: #000;
+	height: 100%;
+	width: 100%;
+	position: fixed;
+	opacity: .7;
+	filter:alpha(opacity=70);
+	top: 0;
+	left: 0;
+	z-index: 50;
+}
+
+#overlay_container {
+	width: 100%;
+    position: absolute;
+	left: 0;
+    top: 100px;
+    z-index: 500000;
+}
+
+.general_overlay {
+	width: 660px;
+	margin: auto;
+}
+
+div.overlay_top {
+    background: url(/web/20180701231355im_/http://g.purevolumecdn.com/_images/overlay_top.png) no-repeat;
+    height: 18px;
+}
+
+div.overlay_bg {
+    background: url(/web/20180701231355im_/http://g.purevolumecdn.com/_images/overlay_bg.png) repeat-y;
+    padding: 16px 38px;
+    width: 584px;
+    position: relative;
+}
+
+div.overlay_bg h4 {
+    color: #111;
+    font-size: 18px;
+    margin: 0 0 20px 0;
+}
+
+div.overlay_bottom {
+    background: url(/web/20180701231355im_/http://g.purevolumecdn.com/_images/overlay_bottom.png) no-repeat;
+    height: 18px;
+}
+
+div.general_overlay div.label_container {
+    float: left;
+    width: 150px;
+    margin: 0;
+	color: #111;
+	padding-right: 0;
+}
+
+div.general_overlay div.short_row {
+    float: right;
+    margin: 0;
+    width: 420px;
+}
+
+div.general_overlay div.short_row input {
+    width: 408px;
+    color: #333;
+    padding: 3px;
+    float: left;
+}
+
+.general_overlay div.field_row {
+	padding: 0;
+	border: none;
+	margin-bottom: 20px;
+}
+
+div.general_overlay div.short_row textarea {
+	padding: 5px;
+	height: 100px;
+	width: 408px;
+	font-family: 'Lucida Grande', Arial, sans-serif;
+	font-size: 14px;
+}
+
+div.message_overlay div.short_row textarea {
+	height: 200px;
+}
+
+div.general_overlay div.final_row input {
+	float: right;
+	padding: 0;
+}
+
+div.general_overlay div.final_row a {
+	margin: 12px 15px 0 10px;
+	color: #888;
+	float: right;
+}
+
+div.general_overlay div.final_row input.submit_button {
+	margin-right: 0;
+}
+
+a.overlay_next_prev {
+	display: block;
+	padding: 20px 0 18px 0;
+	text-align: center;
+	font-size: 14px;
+	font-weight: bold;
+}
+
+a.overlay_next_prev:hover {
+	background: #eee;
+}
+
+
+
+
+/*****************************************************************************
+Page Top Nav
+*****************************************************************************/
+
+.page_top_nav_container {
+	height: 40px;
+	margin: 0;
+	padding: 0;
+	background: url(/web/20180701231355im_/http://g.purevolumecdn.com/_images/page_top_nav_bg.png) no-repeat;
+}
+
+ul.page_top_nav {
+	height: 40px;
+	margin: 0;
+	padding: 0 1px 0 1px;
+	position: relative;
+	z-index: 12;
+}
+
+ul.page_top_nav li {
+    float: left;
+	margin: 0;
+	height: 40px;
+	position: relative;
+	z-index: 99999;
+}
+
+ul.page_top_nav li a {
+    display: block;
+    margin: 1px 0 0 0;
+    color: #888;
+	height: 26px;
+    padding: 13px 20px 0 20px;
+    border-right: 1px solid #d7d7d7;
+    outline: none;
+    float: left;
+    display: inline;
+    position: relative;
+	z-index: 5000;
+}
+
+ul.page_top_nav li a:hover {
+	background: #fff;
+	color: #222;
+	height: 25px;
+	text-decoration: none;
+}
+
+ul.page_top_nav li.first a:hover {
+	-webkit-border-top-left-radius: 3px;
+	-moz-border-radius-topleft: 3px;
+	border-top-left-radius: 3px;
+}
+
+ul.page_top_nav li a.selected {
+    background: #fff;
+	color: #222;
+	height: 26px;
+    border-right: 1px solid #ccc;
+    border-left: 1px solid #ccc;
+	margin-left: -1px;
+    padding: 13px 20px 0 20px;
+	font-size: 12px;
+    position: relative;
+    font-weight: bold;
+    z-index: 5;
+}
+
+ul.page_top_nav li.first a.selected {
+	background: url(/web/20180701231355im_/http://g.purevolumecdn.com/_images_new/page_top_nav_selected.gif) no-repeat;
+	/* -moz-border-radius-topleft: 5px;
+	-webkit-border-top-left-radius: 5px; */
+	border-left: none;
+	margin-left: 0;
+}
+
+
+
+/*****************************************************************************
+Global Structure
+*****************************************************************************/
+
+#page_top {
+	height: 5px;
+	background: url(/web/20180701231355im_/http://g.purevolumecdn.com/_images_new/page_top_corners.png) no-repeat;
+}
+
+#page_container, .page_container {
+	font-family: "Lucida Grande", Arial, sans-serif;
+	background: #fff url(/web/20180701231355im_/http://g.purevolumecdn.com/_images_new/page_bg.gif) repeat-y;
+	zoom:1;
+}
+
+.page_gradient {
+	background: #fff url(/web/20180701231355im_/http://g.purevolumecdn.com/_images/page_gradient.gif) repeat-x;
+}
+
+.page_sub_body {
+	padding: 20px;
+	margin: 0 1px 0 1px;
+	border-bottom: 1px solid #d7d7d7;
+	zoom: 1;
+}
+
+h2.page_header {
+	margin-bottom: 20px;
+}
+
+/*****************************************************************************
+Global Structure: Page Columns
+*****************************************************************************/
+
+.page_column_equal, .page_column_wide, .page_column_narrow, .page_column_super_wide, .page_column_super_narrow, .page_column_wide_588, page_colum_narrow_300 {
+	float: left;
+	margin-right: 20px;
+}
+
+.page_column_equal {
+	width: 444px;
+}
+
+.page_column_wide {
+	width: 568px;
+	overflow: hidden;
+}
+
+.page_column_narrow {
+	width: 320px;
+}
+
+.page_column_super_wide {
+	width: 568px;
+}
+
+.page_column_super_narrow {
+	width: 320px;
+}
+
+.no_margin_right {
+	margin-right: 0;
+}
+
+.column_equal {
+	width: 49%;
+	float: left;
+}
+
+
+/*****************************************************************************
+Global Structure: Big Search Box
+*****************************************************************************/
+
+#large_search_container {
+	padding: 15px;
+	background: #ebebeb;
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+}
+
+.subpage #large_search_container {
+	background: #ebebeb;
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	margin-bottom: 20px;
+}
+
+#large_search_input_container {
+	background: #fff url(/web/20180701231355im_/http://g.purevolumecdn.com/_images/search_input_container_bg_large.gif) no-repeat;
+	height: 40px;
+}
+
+#large_search_input_container:hover, #large_search_input_container:hover #large_search_submit {
+	background-position: 0 -40px;
+}
+
+#large_search_input{
+	border: none;
+	margin: 0;
+	padding: 12px 0 12px 10px;
+	height: 16px;
+	width: 488px;
+	display: inline;
+	font-size: 14px;
+	color: #666;
+	background: none;
+	float: left;
+	outline: none;
+}
+
+#large_search_submit {
+	border: none;
+	background: #eee url(/web/20180701231355im_/http://g.purevolumecdn.com/_images/search_submit_bg_large.gif) no-repeat;
+	width: 40px;
+	height: 40px;
+	display: inline;
+	padding: 0;
+	margin: 0;
+	float: left;
+	cursor: pointer;
+}
+
+#large_search_submit:hover {
+	background-position: 0 -40px;
+}
+
+
+
+/*****************************************************************************
+Global Structure: Round Corner Boxes (dark doesn't have an image yet)
+*****************************************************************************/
+
+.border_light {
+	background: url(/web/20180701231355im_/http://g.purevolumecdn.com/_images_new/rounded_corners_border.gif) bottom no-repeat;
+	zoom:1;
+}
+
+.page_column_narrow .border_light {
+	background: url(/web/20180701231355im_/http://g.purevolumecdn.com/_images_new/rounded_corners_border_narrow.gif) bottom no-repeat;
+}
+
+.page_column_wide .border_light {
+	background: url(/web/20180701231355im_/http://g.purevolumecdn.com/_images_new/rounded_corners_border_wide.gif) bottom no-repeat;
+}
+
+.rounded_corners_top {
+	height: 9px;
+	border: 1px solid #ccc;
+	-moz-border-radius-topleft: 4px;
+	-moz-border-radius-topright: 4px;
+	-webkit-border-top-left-radius: 4px;
+	-webkit-border-top-right-radius: 4px;
+	border-bottom: none;
+	background: #fff;
+}
+
+.rounded_corners, .rounded_corners_module, .rounded_corners_module2 {
+	background-position: bottom left;
+}
+
+.rounded_corners_module {
+	padding: 5px 15px 15px 15px;
+	margin-bottom: 20px;
+}
+
+.rounded_corners_module2 {
+	padding: 0 10px 10px 10px;
+	margin-bottom: 20px;
+}
+
+/*****CSS Rounded Corners standard module*****/
+
+
+.standard_module {
+	padding: 15px;
+	background: #ebebeb;
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	margin-bottom: 20px;
+}
+
+
+/*****************************************************************************
+Profiles
+*****************************************************************************/
+
+.profile_nav {
+	height: 46px;
+	width: 948px;
+	margin: 0 1px 0 1px;
+	font-size: 11px;
+	font-weight: bold;
+	font-family: "Lucida Grande", Arial, sans-serif;
+}
+
+.profile_nav ul {
+	height: 45px;
+	width: 908px;
+	padding: 0 20px 0 20px;
+	border-bottom: 1px solid #d7d7d7;
+}
+
+.profile_nav ul li {
+	float: left;
+	display: inline;
+	height: 45px;
+	margin-right: 25px;
+	margin-bottom: -1px;
+}
+
+.profile_nav ul li a {
+	padding-top: 15px;
+	height: 30px;
+	color: #444;
+	float: left;
+	display: block;
+	font-family: "Lucida Grande", Arial, sans-serif;
+	font-weight: bold;
+	margin-top: 1px 0 0 0;
+	border-top: 1px solid #fff;
+	display: inline;
+	position: relative;
+}
+
+.profile_nav ul li.profile_nav_selected a {
+	background: url(/web/20180701231355im_/http://g.purevolumecdn.com/_images/profile_nav_selected.gif) bottom center no-repeat;
+}
+
+#artist_overview_nav {
+	width: 950px;
+	background: #1a1a1a;
+	margin: 0;
+}
+
+#artist_overview_nav ul {
+	border-bottom: 1px solid #343434;
+}
+
+#artist_overview_nav ul li a {
+	color: #008ee8;
+	border-top: 1px solid #222;
+}
+
+#artist_overview_nav ul li.profile_nav_selected a {
+	color: #fff;
+	background-image: none;
+}
+
+/*****************************************************************************
+Profiles: Profile Meta
+*****************************************************************************/
+
+#profile_meta {
+	padding: 20px 21px 15px 21px;
+	margin: 0;
+	border-bottom: 1px solid #d7d7d7;
+	background: #ffffff;
+	zoom:1;
+}
+
+#artist_profile .page_column_wide {
+	width: 588px;
+}
+
+#artist_profile .page_column_narrow {
+	width: 300px;
+}
+
+.profile_meta h2, .profile_meta h2 a {
+	font-size: 24px;
+}
+
+#artist_profile .profile_meta {
+	padding-bottom: 10px;
+}
+
+#artist_profile .profile_meta .action_nav {
+	margin-bottom: 10px;
+}
+
+#artist_profile .profile_meta p {
+	font-size: 11px;
+	margin-bottom: 10px;
+}
+
+#artist_profile #profile_meta_2 p {
+	margin-bottom: 7px;
+}
+
+/* #artist_profile #profile_meta_2 {
+	padding: 10px 10px 5px 10px;
+	margin-bottom: 20px;
+} */
+
+#artist_profile .profile_meta p.header_location {
+	font-weight: bold;
+	display: block;
+	margin-bottom: 10px;
+	color: #888;
+}
+
+	
+/*****************************************************************************
+Profiles: Profile Photo
+*****************************************************************************/
+
+#profile_photo_container {
+	margin-bottom: 20px;
+}
+
+.profile_photo_link {
+	display: block;
+	text-decoration: none;
+}
+
+.profile_photo_link img {
+	padding: 0;
+	display: block;
+	width: 300px;
+}
+
+.profile_photo_wrapper {
+	display: block;
+	position: relative;
+	width: 300px;
+	padding-bottom: 0;
+}
+
+
+/*****************************************************************************
+Pagination
+*****************************************************************************/
+
+div.pagination_container {
+	margin: 15px 0 20px 0;
+}
+
+div.pagination {
+    line-height: 150%;
+    padding: 2px;
+}
+
+div.pagination strong {
+	padding: 4px 8px 5px 8px;
+	margin: 0px;
+	font-weight: bold;
+}
+
+div.pagination a {
+	background: #fff;
+	padding: 5px 10px;
+	margin: 0 5px 0 0px;
+	border: 1px solid #d7d7d7;
+	text-decoration: none;
+}
+
+div.pagination a:hover {
+	background: #008ee8;
+	border-color: #008ee8;
+	color: #fff;
+}
+
+a.inactive,
+a.inactive {
+	background-position: 0px 15px;
+}
+
+
+
+/*****************************************************************************
+Subpages
+*****************************************************************************/
+.subpage h2.page_header {
+	padding: 10px 20px 15px 20px;
+	margin: 0 1px 0 1px;
+	border-bottom: 1px solid #d7d7d7;
+}
+	
+
+
+/*****************************************************************************
+Custom Styles
+*****************************************************************************/
+
+
+
+
+
+/*****************************************************************************
+Custom Styles: Setup for Custom Page Header
+*****************************************************************************/
+
+#custom_page_top {
+	height: 250px;
+	margin-top: 15px;
+	-moz-border-radius-topleft: 4px;
+	-moz-border-radius-topright: 4px;
+	-webkit-border-top-left-radius: 4px;
+	-webkit-border-top-right-radius: 4px;
+}
+
+#custom_page_top div.profile_meta {
+	background: #fff;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 4px;
+	float: right;
+	width: 295px;
+	padding: 15px 10px 15px 15px; 
+	margin: 21px 21px 0 0;
+	display: inline;
+	zoom:1;
+	font-size: 11px;
+}
+
+#custom_page_top .profile_meta #profile_photo_container {
+	display: none;
+}
+	
+.custom_nav_top {
+	height: 5px;
+	background: #fff url(/web/20180701231355im_/http://g.purevolumecdn.com/_images_new/page_bg.gif) repeat-y;
+	zoom:1;
+}
+
+
+
+/*****************************************************************************
+From Global
+*****************************************************************************/
+
+div.list_mod a img { 
+    float: left;
+    margin: 10px 0 10px 10px;
+    display: inline;
+}
+
+
+/*-----------------------------------------------------------------------
+--------LABELS HEADER
+-------------------------------------------------------------------------*/
+
+div#label_controller {
+	background: #1a1a1a;
+	padding: 10px 30px 10px 30px;
+	border-bottom: 1px solid #ccc;
+}
+
+div#label_controller a {
+	color: #fff;
+}
+
+div#label_controller h1 {
+	float: left;
+	margin-right: 15px;
+}
+
+div#label_controller h1, div#label_controller h1 a {
+	width: 170px;
+	height: 40px;
+	display: block;
+}
+
+div#label_controller h1 a {
+	background: url(/web/20180701231355im_/http://g.purevolumecdn.com/_images/_profile_backend/record_label_dashboard.gif) no-repeat;
+}
+
+div#label_controller h1 a span {
+	display: none;
+}
+
+ul#label_nav {
+	float: right;
+	padding-top: 12px;
+}
+
+ul#label_nav li {
+	display: inline;
+	margin: 0px 0px 0 20px;
+}
+
+ul#label_secondary_nav {
+	margin-bottom: 20px;
+}
+
+ul#label_secondary_nav li {
+	float: left;
+	margin-right: 15px;
+	display: block;
+}
+
+ul#label_secondary_nav li a {
+	display: inline;
+	padding: 8px 12px;
+	float: left;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	font-size: 16px;
+	color: #222;
+	font-weight: normal;
+	text-shadow: 0 1px #c0c0c0;
+}
+
+#label_secondary_nav .button_expand a {
+    background: url("/web/20180701231355im_/http://g.purevolumecdn.com/_images/button_expand.png") no-repeat #eee;
+    border: 1px solid #ccc;
+}
+
+#label_secondary_nav .button_expand a.selected {
+    background: url("/web/20180701231355im_/http://g.purevolumecdn.com/_images/button_expand.png") no-repeat #ccc;
+}
+
+div#label_artists_jump_container {
+	float: left;
+	width: 300px;
+	padding-top: 9px;
+}
+
+select#label_artists {
+	font-size: 14px;
+}
+
+#label_dashboard_footer {
+	padding: 10px 30px 100px 30px;
+	color: #666;
+	font-size: 11px;
+	background: #000;
+}
+
+#label_dashboard_footer a {
+	color: #666;
+}
+
+#label_dashboard_footer a:hover {
+	color: #fff;
+	text-decoration: underline;
+}
+
+/*POPUPS----------------------------------------------------------*/
+
+div#popup {
+    padding: 20px;
+/*    background: #fff;
+    border: 1px solid #ddd;
+    border-bottom: 1px solid #ccc;*/
+}
+
+div#popup h3 {
+    color: #333;
+}
+
+div#popup em {
+    color: #aaa;
+    font-size: 10px;
+    line-height: 130%;
+    margin-top: 10px;
+    display: block;
+}
+
+/*****************************************************************************
+Color Picker Styles
+*****************************************************************************/
+
+#color_selector, #color_selector_2 {
+	background: url(/web/20180701231355im_/http://g.purevolumecdn.com/_images/select2.png) no-repeat center center;
+	height: 28px;
+	width: 28px;
+	float: left;
+	margin-right: 15px;
+}
+
+* html #color_selector {
+    background-image: none;
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/_images/select2.png', sizingMethod='scale');
+}
+
+* html #color_selector_2 {
+    background-image: none;
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/_images/select2.png', sizingMethod='scale');
+}
+
+.reset_accent_color {
+	display: block;
+	float: left;
+	padding-top: 5px;
+	height: 23px;
+	display: inline;
+	width: 100px;
+	zoom:1;
+}
+
+/***ACTIVITY******************************************************
+******************************************************************/
+
+/***TIPSY**********************************************************
+******************************************************************/
+
+.tipsy { 
+    padding: 5px;
+    font-size: 11px;
+    background-repeat: no-repeat; 
+}
+
+.tipsy-inner { 
+    padding: 6px 8px; 
+    background-color: #222; 
+    color: white; 
+    max-width: 200px; 
+    text-align: center;
+    line-height: 140%;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+}
+
+.tipsy-inner span {
+    color: #999;
+}
+
+.tipsy-south { 
+    background-image: url(/web/20180701231355im_/http://g.purevolumecdn.com/_images/title_arrow.gif); 
+    background-position: bottom center; 
+}
+
+
+/*MODAL CSS----------------------------------------------------------*/
+
+.btn {
+	background: #428bca;
+	border: #357ebd solid 0px;
+	border-radius: 3px;
+	color: #fff;
+	display: inline-block;
+	font-size: 14px;
+	padding: 8px 15px;
+	text-decoration: none;
+	text-align: center;
+	min-width: 60px;
+	position: relative;
+	transition: color .1s ease;
+}
+.btn:hover {
+	background: #357ebd;
+}
+.btn-close {
+	color: #aaaaaa;
+	font-size: 20px;
+	text-decoration: none;
+	padding:10px;
+	position: absolute;
+	right: 7px;
+	top: 0;
+}
+.btn-close:hover {
+	color: #919191;
+}
+.modale:before {
+	content: "";
+	display: none;
+	background: rgba(0, 0, 0, 0.6);
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	z-index: 10;
+}
+.opened:before {
+	display: block;
+}
+.opened .modal-dialog {
+	-webkit-transform: translate(0, 0);
+	-ms-transform: translate(0, 0);
+	transform: translate(0, 0);
+	top: 20%;
+}
+.modal-dialog {
+	background: #fefefe;
+	border: #333333 solid 0px;
+	border-radius: 5px;
+	margin-left: -200px;
+	text-align:center;
+	position: fixed;
+	left: 50%;
+	top: -100%;
+	z-index: 11;
+	width: 360px;
+	box-shadow:0 5px 10px rgba(0,0,0,0.3);
+	-webkit-transform: translate(0, -500%);
+	-ms-transform: translate(0, -500%);
+	transform: translate(0, -500%);
+	-webkit-transition: -webkit-transform 0.3s ease-out;
+	-moz-transition: -moz-transform 0.3s ease-out;
+	-o-transition: -o-transform 0.3s ease-out;
+	transition: transform 0.3s ease-out;
+}
+.modal-body {
+	padding: 20px;
+}
+.modal-body h3 {
+	font-size: 17px;
+	margin: 10px 0px 20px 0px;
+}
+.modal-body div {
+	font-size: 14px;
+	text-align: center;
+}
+.modal-body input{
+	width:200px;
+	padding:8px;
+	border:1px solid #ddd;
+	color:#888;
+	outline:0;
+	font-size:14px;
+	font-weight:bold
+}
+.modal-header,
+.modal-footer {
+	padding: 20px 20px;
+}
+.modal-header {
+	border-bottom: #eeeeee solid 1px;
+}
+.modal-header h2 {
+	font-size: 20px;
+}
