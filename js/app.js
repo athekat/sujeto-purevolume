@@ -35,7 +35,7 @@
       duration:"00:33"
     },
     {
-      name:"SxG - Israel vs Libano",
+      name:"SxG - Haciendo Ruido",
       file:"music/IvsL.mp3",
       duration:"01:30"
     }
